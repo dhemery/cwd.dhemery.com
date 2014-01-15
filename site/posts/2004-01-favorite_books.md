@@ -1,6 +1,5 @@
 --- 
-category: 
-- Leading
+category:  Leading
 - Resistance
 date: 2004/01/04 20:00:00
 tags: 

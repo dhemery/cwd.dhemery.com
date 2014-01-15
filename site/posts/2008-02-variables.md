@@ -1,6 +1,5 @@
 --- 
-category: 
-- Writing
+category:  Writing
 date: 2008/02/12 05:02:28
 tags: 
 - fiction

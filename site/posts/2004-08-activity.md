@@ -1,6 +1,5 @@
 --- 
-category: 
-- Resistance
+category:  Resistance
 date: 2004/08/04 03:05:00
 tags: 
 - process

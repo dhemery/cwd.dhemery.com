@@ -1,6 +1,5 @@
 --- 
-category: 
-- Leading
+category:  Leading
 date: 2003/08/20 22:00:00
 tags: 
 - power

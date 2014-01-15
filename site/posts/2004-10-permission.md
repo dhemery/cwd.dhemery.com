@@ -1,6 +1,5 @@
 --- 
-category: 
-- Leading
+category:  Leading
 date: 2004/10/17 16:05:00
 tags: 
 - coaching

@@ -1,6 +1,5 @@
 --- 
-category: 
-- Leading
+category:  Leading
 - Resistance
 date: 2009/05/29 07:36:25
 tags: []

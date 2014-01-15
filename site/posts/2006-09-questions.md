@@ -1,6 +1,5 @@
 --- 
-category: 
-- Resistance
+category:  Resistance
 date: 2006/09/29 01:10:00
 tags: []
 

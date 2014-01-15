@@ -1,6 +1,5 @@
 --- 
-category: 
-- Leading
+category:  Leading
 date: 2005/11/03 03:00:00
 tags: 
 - relating

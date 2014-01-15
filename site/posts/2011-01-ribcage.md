@@ -1,6 +1,5 @@
 --- 
-category: 
-- Coding
+category:  Coding
 date: 2011/01/18 15:26:28
 tags: 
 - towers

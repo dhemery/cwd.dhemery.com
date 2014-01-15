@@ -1,6 +1,5 @@
 --- 
-category: 
-- Resistance
+category:  Resistance
 date: 2003/10/30 17:00:00
 tags: 
 - communicating

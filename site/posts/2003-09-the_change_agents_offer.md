@@ -1,6 +1,5 @@
 --- 
-category: 
-- Leading
+category:  Leading
 - Resistance
 date: 2003/09/30 17:30:00
 tags: 

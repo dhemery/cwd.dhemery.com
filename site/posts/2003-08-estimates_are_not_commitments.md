@@ -1,6 +1,5 @@
 --- 
-category: 
-- Leading
+category:  Leading
 date: 2003/08/11 18:00:00
 tags: 
 - collaborating

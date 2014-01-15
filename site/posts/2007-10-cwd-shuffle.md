@@ -1,6 +1,5 @@
 --- 
-category: 
-- Writing
+category:  Writing
 date: 2007/10/20 14:07:16
 tags: 
 - blogging

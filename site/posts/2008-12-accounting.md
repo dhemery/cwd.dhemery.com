@@ -1,6 +1,5 @@
 --- 
-category: 
-- Coding
+category:  Coding
 - Leading
 date: 2008/12/31 13:06:21
 tags: 

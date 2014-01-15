@@ -1,6 +1,5 @@
 --- 
-category: 
-- Leading
+category:  Leading
 date: 2004/01/13 18:15:00
 tags: 
 - organizing

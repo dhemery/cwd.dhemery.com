@@ -1,6 +1,5 @@
 --- 
-category: 
-- Writing
+category:  Writing
 date: 2003/09/15 21:00:39
 tags: 
 - fiction

@@ -1,6 +1,5 @@
 --- 
-category: 
-- Coding
+category:  Coding
 - Testing
 date: 2009/02/19 01:12:14
 tags: 

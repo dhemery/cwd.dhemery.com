@@ -1,6 +1,5 @@
 --- 
-category: 
-- Writing
+category:  Writing
 date: 2004/03/06 00:52:00
 tags: 
 - nonfiction

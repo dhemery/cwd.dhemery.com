@@ -1,6 +1,5 @@
 --- 
-category: 
-- Resistance
+category:  Resistance
 date: 2004/03/04 15:03:00
 tags: 
 - power

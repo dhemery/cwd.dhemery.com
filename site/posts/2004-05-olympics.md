@@ -1,6 +1,5 @@
 --- 
-category: 
-- Leading
+category:  Leading
 date: 2004/05/05 01:20:00
 tags: 
 - projects

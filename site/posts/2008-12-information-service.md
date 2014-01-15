@@ -1,6 +1,5 @@
 --- 
-category: 
-- Testing
+category:  Testing
 date: 2008/12/30 15:37:11
 tags: 
 - collaborating

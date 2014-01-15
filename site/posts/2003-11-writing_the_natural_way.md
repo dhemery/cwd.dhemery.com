@@ -1,6 +1,5 @@
 --- 
-category: 
-- Writing
+category:  Writing
 date: 2003/11/11 06:00:00
 tags: 
 - books

@@ -1,6 +1,5 @@
 --- 
-category: 
-- Leading
+category:  Leading
 date: 2004/08/19 15:20:00
 tags: 
 - communicating

@@ -1,6 +1,5 @@
 --- 
-category: 
-- Leading
+category:  Leading
 date: 2006/03/15 18:00:00
 tags: 
 - glossary

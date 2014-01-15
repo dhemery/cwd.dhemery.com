@@ -1,6 +1,5 @@
 --- 
-category: 
-- Resistance
+category:  Resistance
 date: 2006/09/28 17:55:00
 tags: 
 - relating

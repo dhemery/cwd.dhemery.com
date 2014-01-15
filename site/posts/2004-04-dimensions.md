@@ -1,6 +1,5 @@
 --- 
-category: 
-- Testing
+category:  Testing
 date: 2004/04/29 00:40:00
 tags: 
 - design

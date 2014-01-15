@@ -1,6 +1,5 @@
 --- 
-category: 
-- Coding
+category:  Coding
 date: 2011/01/04 14:20:41
 tags: 
 - unit testing

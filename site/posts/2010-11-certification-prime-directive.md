@@ -1,6 +1,5 @@
 --- 
-category: 
-- Leading
+category:  Leading
 date: 2010/11/04 13:54:47
 tags: []
 
