@@ -1,0 +1,14 @@
+--- 
+categories: 
+- Coding
+- Testing
+date: 2008/05/21 14:17:23
+tags: []
+
+title: Code coverage does not imply test coverage
+comments: true
+published: true
+layout: post
+---
+
+<p>A <em>code coverage tool</em> watches your program executing and reports which lines of code were executed and which were not.&#160; Testers are sometimes tempted to use code coverage tools to assess test coverage.&#160; And some testers are tempted to set code coverage goals.&#160; If you feel these temptations, be careful how you interpret the code coverage tool's reports.</p>  <p>You can be sure that if a line of code was not executed during a test run, then it certainly was not tested by that run.</p>  <p>But what of a line of code that <em>was</em> executed by the tests?&#160; Unfortunately, you can't tell, just from the fact that it was executed, whether the line was tested.</p>  <p><a title="Agile Testing consultant and trainer Elisabeth Hendrickson" href="http://www.testobsessed.com">Elisabeth Hendrickson</a> and I developed a workshop on unit testing.&#160; The work of the workshop centered on a small application we had written, a rudimentary HTTP server.&#160; Our initial code had exactly thirteen tests, just enough to illustrate a few basic tools and techniques that we'd be teaching in the workshop.</p>  <p>When we ran a test coverage tool called NCover to watch our test suite, it reported that our thirteen tests executed 65 percent of the server's code.&#160; <strong>Does that mean that we achieved 65 percent <em>test</em> coverage?&#160; Not on your life.</strong>&#160; Our thirteen tests barely scratched the surface of the responsibilities of even our very simple HTTP server.</p>  <p>If our tests tested so little, why was code coverage so high?&#160; Because though we our suite <em>tested</em> little of the code, it <em>executed</em> a lot of the code.</p>  <p>For example, one of our tests sent a GET request to the server and evaluated the response.&#160; As the server executed the request, it called a logging function to log information about the request and its response to a file.&#160; The logging function was minimal, and did not deal with any of the zillions of possible file system errors it might encounter.&#160; It expected the happy path, and nothing but the happy path.&#160; So this one test, which did not in any way assess the logging feature, executed all of the logging code.&#160; The logging code was <strong>100 percent executed and zero percent tested</strong>.</p>  <p><strong>Code coverage does not imply test coverage.</strong>&#160; If you use code coverage tools to help assess your test coverage, keep that in mind.</p>

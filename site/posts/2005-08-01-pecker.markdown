@@ -1,0 +1,13 @@
+--- 
+categories: 
+- Leading
+date: 2005/08/01 17:15:00
+tags: 
+- relating
+title: The Pecker Principle
+comments: true
+published: true
+layout: post
+---
+
+<p>The Pecker Principle:  The people who care most about the pecking order are usually the biggest peckers.</p>
