@@ -1,12 +1,10 @@
 --- 
-category:  Writing
+title: Experiences with The Spiral Method
 date: 2004/03/06 00:51:00
 tags: 
 - nonfiction
-title: Experiences with The Spiral Method
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 I've written four articles using <a href="http://www.dhemery.com/dalewriting/2004/03/spiral_method">The Spiral Method</a>, and I've been delightfully surprised every time.

@@ -11,17 +11,10 @@ activate :blog do |blog|
     blog.layout = "post"
     blog.permalink = ":year/:month/:title"
 
-    blog.tag_template = "tags.html"
+    blog.tag_template = "tag.html"
     blog.taglink = "tag/:tag/index.html"
 
     blog.paginate = false
-    blog.custom_collections = {
-        category: {
-            link: '/category/{category}.html',
-            template: '/categories.html'
-        }
-    }
-
 end
 
 activate :directory_indexes

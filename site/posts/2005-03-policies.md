@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Guidelines for Defining, Writing, and Maintaining Policies
 date: 2005/03/01 16:00:00
 tags: 
+- leading
 - organizing
-title: Guidelines for Defining, Writing, and Maintaining Policies
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>Once upon a time, I was a <a href="/cwd/2003/04/dale_emery_bureaucrat.html">professional corporate bureaucrat</a>.  Part of my job was to define policies that would directly affect thousands of people, and indirectly affect thousands more.  Early in that job I learned that our company didn't offer much guidance about writing policies.  Sure, we had clear policies about the <em>format</em> in which we would publish policies, but no guidance about other key elements of policies, such as how to define policies, how to maintain them, and how to encourage adoption.  Lacking that guidance, I created my own.</p>

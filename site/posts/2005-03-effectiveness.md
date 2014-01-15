@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: Effectiveness
 date: 2005/03/11 05:30:00
 tags: 
 - coaching
+- leading
 - power
-title: Effectiveness
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>Three questions lie at the heart of effectiveness.  The better you can answer these three key questions and act on the answers, the more effective you will be:</p>

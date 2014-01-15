@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Permission to Help
 date: 2004/10/17 16:05:00
 tags: 
 - coaching
-title: Permission to Help
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p>

@@ -1,14 +1,12 @@
 --- 
-category:  Leading
+title: Appreciation
 date: 2004/08/19 15:20:00
 tags: 
 - communicating
+- leading
 - process
 - relating
-title: Appreciation
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> A few weeks ago, Esther Derby, inspired by a <a href="http://www.fastcompany.com/magazine/84/wholefoods.html">Fast Company article</a> about Whole Foods Market CEO John Mackey, wrote <a href="http://www.estherderby.com/weblog/archive/2004_07_01_archive.html#109093195317557717">a short article about appreciation</a>. </p>

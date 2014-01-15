@@ -1,14 +1,12 @@
 --- 
-category:  Leading
+title: The Prime Project Failure Factor
 date: 2004/06/06 15:30:00
 tags: 
+- leading
 - power
 - process
 - projects
-title: The Prime Project Failure Factor
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> From time to time, <a href="http://www.standishgroup.com">The Standish Group</a> publishes reports about their <a href="http://www.standishgroup.com/chaos_resources/index.php">CHAOS research</a>, which analyzes the factors that drive success and failure in large IT projects.  The <a href="http://www.standishgroup.com/sample_research/chaos_1994_1.php">first CHAOS Report</a>, published in 1994 and now freely available on the Standish Group's web site, has become famous in the software industry.  The report identifies these failure factors: </p>

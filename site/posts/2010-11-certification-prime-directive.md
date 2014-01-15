@@ -1,12 +1,9 @@
 --- 
-category:  Leading
-date: 2010/11/04 13:54:47
-tags: []
-
 title: The Certification Prime Directive
-comments: true
-published: true
-layout: post
+date: 2010/11/04 13:54:47
+tags:
+- leading
+
 ---
 
 <p>The demand for certifications comes ultimately from hirers—in particular, from hirers who need to hire and retain highly skilled practitioners, and who are not themselves able to assess practitioners’ skills. Though certification programs may serve other needs, the hirers’ needs are the heart that pumps life into any certification.</p>

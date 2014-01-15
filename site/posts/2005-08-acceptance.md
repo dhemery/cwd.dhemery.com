@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: The Acceptance Question
 date: 2005/08/02 19:00:00
 tags: 
+- leading
 - power
-title: The Acceptance Question
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>"How do I feel about what I'm feeling?"  This seemingly silly question is one of the more powerful questions in my repertoire.  When I'm knocked for a loop by a painful feeling, aswering this question helps me to regain my balance.  Here are two examples.</p>

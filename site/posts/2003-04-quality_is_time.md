@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Quality is Time
 date: 2003/04/15 18:59:00
 tags: 
+- leading
 - process
-title: Quality is Time
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>

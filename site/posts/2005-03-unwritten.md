@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: The Unwritten Rule of the Unwritten Rule
 date: 2005/03/03 12:05:00
 tags: 
+- leading
 - power
-title: The Unwritten Rule of the Unwritten Rule
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>

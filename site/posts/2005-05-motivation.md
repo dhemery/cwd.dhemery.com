@@ -1,13 +1,11 @@
 --- 
-category:  Leading
-- Resistance
+title: Motivation
 date: 2005/05/18 02:20:00
 tags: 
+- leading
 - power
-title: Motivation
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <strong>Motivation consists of three elements:</strong>

@@ -1,5 +1,5 @@
 --- 
-category:  Leading
+title: A Human Bias Toward Standards of Perfection
 date: 2010/07/29 12:29:47
 tags: 
 - being human
@@ -7,11 +7,9 @@ tags:
 - coaching
 - communicating
 - judging
+- leading
 - relating
-title: A Human Bias Toward Standards of Perfection
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>In <a href="http://www.ted.com/talks/laurie_santos.html">a fascinating TED Talk</a>, Laurie Santos shows that monkeys make the same kinds of economic errors as humans do. Another way to say this: Humans make some of the same kinds of economic errors as monkeys do.</p>

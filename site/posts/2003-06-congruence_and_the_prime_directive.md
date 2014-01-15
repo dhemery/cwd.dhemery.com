@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: Congruence and the Prime Directive
 date: 2003/06/24 15:03:00
 tags: 
 - collaborating
+- leading
 - power
-title: Congruence and the Prime Directive
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>

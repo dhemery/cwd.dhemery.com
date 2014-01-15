@@ -1,13 +1,11 @@
 --- 
-category:  Resistance
+title: Discouraging Generalizations
 date: 2003/05/19 17:29:00
 tags: 
 - communicating
 - relating
-title: Discouraging Generalizations
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> I've noticed a pattern in the way people sometimes explain the resistance they are experiencing. Here are some examples: </p>

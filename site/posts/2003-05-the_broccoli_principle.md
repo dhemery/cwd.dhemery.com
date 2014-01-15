@@ -1,12 +1,10 @@
 --- 
-category:  Resistance
+title: The Broccoli Principle
 date: 2003/05/07 17:35:00
 tags: 
 - relating
-title: The Broccoli Principle
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> Broccoli is healthy. You want your kids to be healthy, so you want them to eat broccoli. Unfortunately, your kids won't eat broccoli. It tastes oogie. It looks wicked gross. And George H. W. Bush made it okay to just say no to the stuff. </p>

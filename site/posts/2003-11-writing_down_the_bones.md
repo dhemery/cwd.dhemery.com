@@ -1,14 +1,12 @@
 --- 
-category:  Writing
+title: Writing Down the Bones
 date: 2003/11/11 06:00:00
 tags: 
 - books
 - fiction
 - nonfiction
-title: Writing Down the Bones
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 Near the end of  <em><a href="http://www.amazon.com/exec/obidos/ASIN/0877733759/dalehemer-20">Writing Down the Bones</a></em>,  Natalie Goldberg says, "Everything I say as a teacher is ultimately aimed at people trusting their own voice and writing from it." Much of this book is about what happens inside us as writers, and how to bring what's inside into our writing. Woven throughout are simple, powerful exercises for writing and for exploring ourselves as writers.

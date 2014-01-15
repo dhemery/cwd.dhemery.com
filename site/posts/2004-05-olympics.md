@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: "Project Watch:  Olympic Stadium"
 date: 2004/05/05 01:20:00
 tags: 
+- leading
 - projects
-title: "Project Watch:  Olympic Stadium"
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> However it turns out, the project to build the Olympic stadium for the 2004 Summer Olympics in Athens will make a great case study for students of project management. </p>

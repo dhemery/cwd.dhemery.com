@@ -1,14 +1,12 @@
 --- 
-category:  Leading
+title: Turning to One Another
 date: 2003/04/24 14:21:00
 tags: 
 - books
 - collaborating
+- leading
 - relating
-title: Turning to One Another
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> In <strong>

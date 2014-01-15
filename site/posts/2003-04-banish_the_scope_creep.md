@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: Banish the Scope Creep
 date: 2003/04/30 02:06:00
 tags: 
 - collaborating
+- leading
 - projects
-title: Banish the Scope Creep
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> When I first started managing software projects, I used to wonder, "Who is this <em>Scope Creep</em> guy everybody is always talking about? And how does he end up on every one of my projects?" Eventually, I discovered who the Scope Creep is, and how to banish him from my projects. </p>

@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Information
 date: 2006/03/15 18:00:00
 tags: 
 - glossary
-title: Information
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <dl> <dt> <strong>information</strong> </dt> <dd>

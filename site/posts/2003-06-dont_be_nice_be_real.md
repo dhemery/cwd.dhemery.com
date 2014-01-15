@@ -1,12 +1,10 @@
 --- 
-category:  Resistance
+title: Don't Be Nice, Be Real
 date: 2003/06/09 15:37:00
 tags: 
 - books
-title: Don&#8217;t Be Nice, Be Real
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> Through several recent conversations on the <a href="http://groups.yahoo.com/group/resistance-as-a-resource">Resistance as a Resource mailing list</a> and other places, I've realized that I've written little about <strong>two enormously important factors that affect resistance: emotions and relationships.</strong> My article "<a href="/articles/resistance_as_a_resource.html">Resistance as a Resource</a>" barely mentions emotions and feelings, and offers only a few ideas about improving your relationships with the people you are asking to change. Emotions and relationships are two key areas in which I want to improve my approach to resistance. </p>

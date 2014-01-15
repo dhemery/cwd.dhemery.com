@@ -1,12 +1,10 @@
 --- 
-category:  Resistance
+title: People Resist Change?
 date: 2003/07/30 21:00:00
 tags: 
 - relating
-title: People Resist Change?
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> Every now and then, I hear someone say, "People resist change." Most of the time, the person say this has made some specific proposal, to which some other person has responded by resisting. Other times, one person is saying this to console another who is experiencing resistance. "People resist change" is offered as a kind of explanation. Why are those people resisting? Because people resist change. </p>

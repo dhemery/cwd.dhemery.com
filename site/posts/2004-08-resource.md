@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: Resource
 date: 2004/08/20 02:00:00
 tags: 
 - glossary
+- leading
 - power
-title: Resource
-comments: true
-published: true
-layout: post
+
 ---
 
 <dl>

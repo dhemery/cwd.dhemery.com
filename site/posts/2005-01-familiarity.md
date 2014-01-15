@@ -1,12 +1,10 @@
 --- 
-category:  Resistance
+title: Promoting Change When People Prefer Familiarity
 date: 2005/01/17 13:40:00
 tags: 
 - relating
-title: Promoting Change When People Prefer Familiarity
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p>Virginia Satir once said, <strong>"People prefer familiarity to comfort."</strong>

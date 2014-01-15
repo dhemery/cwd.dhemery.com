@@ -1,14 +1,12 @@
 --- 
-category:  Leading
+title: Judging
 date: 2003/12/31 15:50:00
 tags: 
 - communicating
+- leading
 - power
 - relating
-title: Judging
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> Over the past few years, I've been learning to express my judgments in a way that I like better than my old way. </p>

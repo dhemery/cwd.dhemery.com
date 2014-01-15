@@ -1,12 +1,10 @@
 --- 
-category:  Coding
+title: "Towers Episode 1: The Reclining Ribcage"
 date: 2011/01/18 15:26:28
 tags: 
+- coding
 - towers
-title: "Towers Episode 1: The Reclining Ribcage"
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>As we begin this episode, I’ve just created <a href="https://github.com/dhemery/Towers/commit/252be5b80247ba67f5e04a25ad5ac4b88c0c059a">a fresh repository</a>, and I’m ready to start developing my Towers game.</p>

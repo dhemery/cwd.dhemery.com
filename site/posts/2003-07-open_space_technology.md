@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: Open Space Technology
 date: 2003/07/31 22:15:00
 tags: 
 - books
 - collaborating
-title: Open Space Technology
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 Over the past few months, I've been hearing more and more about <em>Open Space Technology,</em> a simple and powerful way to organize meetings and conferences. Open Space Technology encourages passion, commitment, and personal responsibility, and taps the capacity of a group of passionate, committed, responsible people to self-organize to address complex issues.

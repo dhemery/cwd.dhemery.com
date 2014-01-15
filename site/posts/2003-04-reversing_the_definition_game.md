@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: Reversing the Definition Game
 date: 2003/04/16 03:28:00
 tags: 
 - collaborating
 - communicating
-title: Reversing the Definition Game
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p> I've played The Definition Game way too many times. In The Definition Game, a group of normally reasonable people argues interminably about the "right" definition for some important term. <em>Mission,</em> for example, or <em>vision,</em> or <em>leadership,</em> or <em>management.</em> And if you want a guaranteed way to distract your team for weeks, just ask them to define <em>software architecture.</em>

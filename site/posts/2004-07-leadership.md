@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Leadership
 date: 2004/07/13 19:45:00
 tags: 
 - glossary
-title: Leadership
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p> As an exercise in clarifying my thoughts, I created definitions for the words <em>lead</em> and <em>leadership</em>: </p>

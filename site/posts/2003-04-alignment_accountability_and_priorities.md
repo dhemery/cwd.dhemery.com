@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Alignment, Accountability, and Priorities
 date: 2003/04/11 17:19:00
 tags: 
+- leading
 - organizing
-title: Alignment, Accountability, and Priorities
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> Steve Peterson, of <a href="http://www.aisc.com">Artemis International Solutions Corporation</a>, spoke about portfolio management at last night's <a href="http://www.pmi-svc.org/">Sacramento Valley PMI</a> meeting. </p>

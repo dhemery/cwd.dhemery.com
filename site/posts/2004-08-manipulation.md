@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: Manipulation
 date: 2004/08/17 17:20:00
 tags: 
 - glossary
+- leading
 - power
-title: Manipulation
-comments: true
-published: true
-layout: post
+
 ---
 
 <dl> <dt> <strong>manipulate</strong> </dt> <dd>

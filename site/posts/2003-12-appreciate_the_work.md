@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Appreciate the Work
 date: 2003/12/03 16:20:00
 tags: 
 - collaborating
-title: Appreciate the Work
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p> Here's a topic that comes up now and again among technical people and their managers: <strong> Do managers of technical people need to understand how to do the technical work they are managing? </strong>

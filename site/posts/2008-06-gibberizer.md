@@ -1,12 +1,10 @@
 --- 
-category:  Writing
+title: "Introducing Gibberizer: Automated Gibberish"
 date: 2008/06/22 16:14:40
 tags: 
 - fiction
-title: "Introducing Gibberizer:  Automated Gibberish"
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 I've created a mostly goofy software tool called Gibberizer.  You enter some text into Gibberizer, and it produces gibberish that is somewhat similar to your text.

@@ -1,12 +1,10 @@
 --- 
-category:  Testing
+title: Dimensions of Software Testing
 date: 2004/04/29 00:40:00
 tags: 
 - design
-title: Dimensions of Software Testing
-comments: true
-published: true
-layout: post
+- testing
+
 ---
 
 A few days ago I was poking around the web for ideas about how to test software, and I saw Scott Ambler's article about "<a href="http://www.ronin-intl.com/publications/floot.html">Full Life Cycle Object-Oriented Testing (FLOOT)</a>."  The article includes a list of common testing techniques.  As I looked over the list, I noticed that <strong>there is a small set of key dimensions that distinguish one testing technique from another.</strong> For example, unit testing and system testing differ in the kind of component they test. Stress testing and usability testing differ in the quality attribute that they test for. Unit testing and acceptance testing differ in the nature of the decisions that are made based on the test results.

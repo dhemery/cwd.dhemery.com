@@ -1,12 +1,10 @@
 --- 
-category:  Resistance
+title: The Weight of Words
 date: 2003/06/26 13:14:00
 tags: 
 - communicating
-title: The Weight of Words
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> Suppose you and I are having a conversation, and I say one of the following: </p>

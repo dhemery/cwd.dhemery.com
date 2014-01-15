@@ -1,13 +1,11 @@
 --- 
-category:  Coding
-- Leading
+title: Beware Accounting Errors
 date: 2008/12/31 13:06:21
 tags: 
-- tdd
-title: Beware Accounting Errors
-comments: true
-published: true
-layout: post
+- coding
+- leading
+- TDD
+
 ---
 
 Beware accounting errors.

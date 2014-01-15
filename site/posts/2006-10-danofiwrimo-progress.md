@@ -1,12 +1,10 @@
 --- 
-category:  Writing
+title: DaNoFiWriMo Progress
 date: 2006/10/28 16:30:00
 tags: 
 - nonfiction
-title: DaNoFiWriMo Progress
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 <p> <em>

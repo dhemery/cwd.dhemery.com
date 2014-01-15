@@ -1,13 +1,11 @@
 --- 
-category:  Resistance
+title: Testing Needs and Wants
 date: 2004/03/04 15:03:00
 tags: 
 - power
 - process
-title: Testing Needs and Wants
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> I often see project teams, as they define the requirements for the project, use the words "want" and "need" to sort essential requirements from nonessential.  The needs are the essential requirements, critical to project success, and the wants are non-essential.  If we find out that we can't satisfy all of the requirements, we'll jettison some of the wants and focus on the needs. </p>

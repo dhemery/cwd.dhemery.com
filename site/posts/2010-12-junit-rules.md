@@ -1,13 +1,11 @@
 --- 
-category:  Coding
+title: Using Rules to Influence JUnit Test Execution
 date: 2010/12/15 05:26:12
 tags: 
+- coding
 - unit testing
 - JUnit
-title: Using Rules to Influence JUnit Test Execution
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>JUnit rules allow you to write code to inspect a test before it is run, modify whether and how to run the test, and inspect and modify test results. I've used rules for several purposes:</p>

@@ -1,13 +1,10 @@
 --- 
-category:  Coding
-- Testing
-date: 2009/12/09 12:15:00
-tags: []
-
 title: Tradeoffs
-comments: true
-published: true
-layout: post
+date: 2009/12/09 12:15:00
+tags:
+- coding
+- test automation
+
 ---
 
 In a thoughful comment on <a href="http://cwd.dhemery.com/2009/11/wmaat/">my blog post</a> about writing maintainable automated acceptance tests, <a href="http://cwd.dhemery.com/2009/11/wmaat/#comment-18843">Chris Falter suggested</a> a different way to name the variables in my test cases. He mentions that our two naming styles present a tradeoff, and that set me on a long trail of thought.

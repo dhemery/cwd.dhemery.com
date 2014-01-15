@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Alison's Advice Advice
 date: 2003/05/01 03:07:00
 tags: 
 - coaching
-title: Alison&#039;s Advice Advice
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p> One day, my friend Alison asked me to advise her about an important upcoming meeting with her manager and her company's Human Resources director. As Alison described the purpose of the meeting, and her specific concerns about it, I realized that her situation was far outside of my experience. And the meeting would have significant consequences in Alison's personal life and work life. </p>

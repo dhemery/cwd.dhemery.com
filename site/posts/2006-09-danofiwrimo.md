@@ -1,12 +1,10 @@
 --- 
-category:  Writing
+title: DaNoFiWriMo
 date: 2006/09/28 17:35:00
 tags: 
 - nonfiction
-title: DaNoFiWriMo
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 Several years ago, <a href="http://www.amazon.com/gp/product/0811845052/104-3420659-4046314?ie=UTF8&amp;tag=dalehemer-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=0811845052">Chris Baty</a> and some of his insane friends created the National Novel Writing Month, or <a href="http://www.nanowrimo.org/">NaNoWriMo</a>.  The idea is to write a 50,000 word novel in the month of November.  Many people use the month to create what <a href="http://www.amazon.com/gp/product/0385480016/104-3420659-4046314?ie=UTF8&amp;tag=dalehemer-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=0385480016">Anne Lamott calls</a> "a shitty first draft," and then use the following year to rewrite the draft into a passable novel.

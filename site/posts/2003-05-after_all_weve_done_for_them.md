@@ -1,12 +1,10 @@
 --- 
-category:  Resistance
+title: After All We've Done for Them
 date: 2003/05/05 15:07:00
 tags: 
 - relating
-title: After All We&#039;ve Done for Them
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p>When I started consulting in 1995, my first customer was Paul, a contractor who specialized in designing and building people's dream homes. My background was software development. I knew nothing about the home building business. So I relied on <a href="/cwd/2003/05/alisons_advice_advice.html">Alison's Advice Advice</a>, and tried to help Paul find his own advice.</p>

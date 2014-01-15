@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Misrepresenting Mehrabian
 date: 2004/05/06 19:00:00
 tags: 
 - communicating
-title: Misrepresenting Mehrabian
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p>Here's an old saw:  "Studies show that only seven percent of our communication comes from words.  The rest comes from nonverbal cues—38 percent from vocal cues such as tone of voice, and 55 percent from body language."  I've heard that hundreds of times, but until yesterday I'd never seen a <em>source</em> for those figures.</p>

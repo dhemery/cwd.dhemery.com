@@ -1,15 +1,13 @@
 --- 
-category:  Leading
+title: Plan for the Present
 date: 2003/11/12 14:30:00
 tags: 
 - collaborating
 - communicating
+- leading
 - power
 - process
-title: Plan for the Present
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> Laurent Bossavit asks a great question, <a href="http://bossavit.com/thoughts/archives/000670.html">"What is the purpose of planning?"</a>. He then gives examples of two of the most common purposes: to facilitate completing the project by some significant date or event, or to facilitate predicting the budget. I like Laurent's question, and encourage you to ask it before (or during, or after) you engage in any significant planning. </p>

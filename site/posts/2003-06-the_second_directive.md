@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: The Second Directive
 date: 2003/06/23 14:31:00
 tags: 
 - collaborating
-title: The Second Directive
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p> In his book <em>

@@ -1,13 +1,11 @@
 --- 
-category:  Coding
-- Leading
+title: The Purpose of Automation
 date: 2004/07/21 05:25:00
 tags: 
+- coding
+- leading
 - process
-title: The Purpose of Automation
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>

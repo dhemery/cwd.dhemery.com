@@ -1,14 +1,12 @@
 --- 
-category:  Writing
+title: Writing with Power
 date: 2003/11/11 06:00:00
 tags: 
 - books
 - fiction
 - nonfiction
-title: Writing with Power
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 I learned three important themes from Peter Elbow's  <em><a href="http://www.amazon.com/exec/obidos/ASIN/0195029135/dalehemer-20">Writing with Power</a></em>:  freewriting, energy, and experience. Elbow describes freewriting:

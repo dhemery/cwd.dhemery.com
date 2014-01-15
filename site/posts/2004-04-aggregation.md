@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Aggregates and the Imbalance of Power
 date: 2004/04/06 20:45:00
 tags: 
+- leading
 - power
-title: Aggregates and the Imbalance of Power
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> Employment relationships are based on an exchange of value.  Jane provides products and services to her employer, Phil, in exchange for money.  Phil provides money to Jane in exchange for her products and services.  (There may be other values involved, such as an opportunity for Jane to do interesting work, but let's keep this simple.)  The exchange works as long each party values what they receive at least slightly more than what they give. </p>

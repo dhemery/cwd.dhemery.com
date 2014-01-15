@@ -1,14 +1,12 @@
 --- 
-category:  Leading
-- Resistance
+title: Famous Leadership Case Study
 date: 2003/06/04 20:04:00
 tags: 
 - books
+- leading
+- resistance
 - workshops
-title: Famous Leadership Case Study
-comments: true
-published: true
-layout: post
+
 ---
 
 I had a blast today!

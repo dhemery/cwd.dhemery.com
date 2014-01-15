@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Dale Emery, Bureaucrat
 date: 2003/04/22 15:45:00
 tags: 
+- leading
 - organizing
-title: Dale Emery, Bureaucrat
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> Until recently, I thought I understood what bureaucracy means: Filling out six forms in triplicate to order a ballpoint pen, waiting three weeks for your pen request forms to work their way up and back down four levels of hierarchy for management signoffs, then waiting four more weeks for the pen to arrive, only to receive a #2 pencil with a dried eraser. Now I understand that excessive paperwork, signoffs, and delays are not the <em>definition</em> of bureaucracy. They are the <em>symptoms</em> of bureaucracy. </p>

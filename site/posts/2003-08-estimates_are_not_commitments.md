@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Estimates Are Not Commitments
 date: 2003/08/11 18:00:00
 tags: 
 - collaborating
-title: Estimates Are Not Commitments
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p> I have seen many managers make trouble for themselves by treating their team members' estimates as commitments. <strong> An estimate is not a commitment, </strong> and the difference between the two is significant for managers. </p>

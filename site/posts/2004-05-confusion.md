@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Confusion is Information
 date: 2004/05/04 19:00:00
 tags: 
 - communicating
-title: Confusion is Information
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p>

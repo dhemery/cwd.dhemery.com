@@ -1,14 +1,12 @@
 --- 
-category:  Writing
+title: Writing from the Inside Out
 date: 2003/11/11 06:00:00
 tags: 
 - books
 - fiction
 - nonfiction
-title: Writing from the Inside Out
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 Early in  <em><a href="http://www.amazon.com/exec/obidos/ASIN/0471382663/dalehemer-20">Writing from the Inside Out</a></em>: Transforming Your Psychological Blocks to Release the Writer Within,  Dennis Palumbo says, "All good writing starts from where you are now." What if "where I am now" is filled with loneliness, doubt, fear of rejection, and writer's block? Palumbo says that we can <em>use</em> those feelings to serve our writing:

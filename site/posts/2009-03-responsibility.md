@@ -1,13 +1,11 @@
 --- 
-category:  Coding
-- Testing
+title: The Anatomy of a Responsibility
 date: 2009/03/09 23:06:33
 tags: 
+- coding
 - design
-title: The Anatomy of a Responsibility
-comments: true
-published: true
-layout: post
+- testing
+
 ---
 
 Because the concept of <strong>system responsibility</strong> is so foundational to how I develop and test software, I want to expand on <a href="/2009/02/planned-response-systems/#responsibility">my earlier description</a>.  Recall that I defined a system responsibility as a system’s obligation to respond to each notification of a specified kind of event under specified circumstances by producing a specified set of planned results.

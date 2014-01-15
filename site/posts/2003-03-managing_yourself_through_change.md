@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Managing Yourself Through Change
 date: 2003/03/24 22:19:00
 tags: 
+- leading
 - power
-title: Managing Yourself Through Change
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> My <a href="/articles/managing_yourself_through_change.html">Managing Yourself Through Change</a> article continues to be the most popular article on my web site.  Some people have asked to use it in their classes.  Just recently, <a href="http://www.mentorshiponline.com">MentorshipOnline.com</a> asked to publish the article on their site (see the <a href="http://www.mentorshiponline.com/cat.list.asp?cid=19&amp;section=learning&amp;cat=artlearncat">Communications &amp; Leadership</a> section in their <a href="http://www.mentorshiponline.com/articles.learning.asp">Learning Center</a>.) </p>

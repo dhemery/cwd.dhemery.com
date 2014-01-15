@@ -1,12 +1,10 @@
 --- 
-category:  Resistance
+title: A Story of Resistance Resolved
 date: 2003/12/04 18:45:00
 tags: 
 - relating
-title: A Story of Resistance Resolved
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> Here is an example of how <strong>

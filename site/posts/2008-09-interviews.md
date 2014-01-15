@@ -1,12 +1,10 @@
 --- 
-category:  Writing
+title: "Interviewing Characters: Follow the Energy"
 date: 2008/09/10 21:22:27
 tags: 
 - fiction
-title: "Interviewing Characters: Follow the Energy"
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 On November 13, 2007 I ran out of plot for the NaNoWriMo novel I was writing.  I had no idea what to write next.  That's not uncommon for NaNo novelists, but I hadda do something to jiggle myself loose.  In NaNoWriMo, word count is everything, and I couldn't afford to fall behind.

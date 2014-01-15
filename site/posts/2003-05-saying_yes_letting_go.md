@@ -1,12 +1,10 @@
 --- 
-category:  Resistance
+title: Saying Yes, Letting Go
 date: 2003/05/06 16:00:00
 tags: 
 - power
-title: Saying Yes, Letting Go
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> Sometimes <strong>saying yes is hard.</strong>  My challenge today is to pull the trigger on a long-overdue decision.  <em>I've decided to focus my consulting business on a specific area of service:</em>

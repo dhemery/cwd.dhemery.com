@@ -1,12 +1,10 @@
 --- 
-category:  Writing
+title: Third Person Underhanded
 date: 2003/09/15 21:00:39
 tags: 
 - fiction
-title: Third Person Underhanded
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 Last Wednesday I was in a book store at the airport in Minneapolis, looking for something to read. I saw Dan Brown’s  <em>Deception Point</em>  on the shelf. I’d recently read his earlier book  <em>Angels &amp; Demons</em>,  and was still feeling annoyed at an underhanded writing trick that Brown had used repeatedly. But I’d had fun reading <em>Angels &amp; Demons</em> despite the overused writing trick, and despite the number of times Brown’s characters (all described as brilliant) did boneheaded things. “Well,” I thought, “maybe Brown learned how to create suspense without trickery.” No such luck. The underhanded writing trick showed up on the second page of the prologue. Here’s an example of the trick from later in the book (at this point in the story, Corky, Rachel, and Tolland are on a ship, being chased by a helicopter full of bad guys):

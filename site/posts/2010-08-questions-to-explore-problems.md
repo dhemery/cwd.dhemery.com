@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: Questions to Explore Problems
 date: 2010/08/30 12:16:56
 tags: 
 - coaching
+- leading
 - process
-title: Questions to Explore Problems
-comments: true
-published: true
-layout: post
+
 ---
 
 One of the most powerful things you can do to help someone solve a problem is to ask great questions. My new article "<a href="http://dhemery.com/pdf/questions_to_explore_problems.pdf">Questions to Explore Problems</a>" (PDF) gives dozens of questions that I’ve found essential in my work as a coach, including questions to explore:</p>

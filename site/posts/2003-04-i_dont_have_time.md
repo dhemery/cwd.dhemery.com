@@ -1,12 +1,10 @@
 --- 
-category:  Resistance
+title: I Don't Have Time
 date: 2003/04/23 16:11:00
 tags: 
 - communicating
-title: I Don&#8217;t Have Time
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> In my <a href="/training/resistance_as_a_resource.html">resistance workshops</a>, I ask participants for examples of the resistance they are experiencing. The example people report most often is, <em>"We don't have time."</em>

@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: The Cheeseburger Talk
 date: 2003/05/13 20:13:00
 tags: 
 - collaborating
-title: The Cheeseburger Talk
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p> I'm attending <a href="http://www.catalysisgroup.com">Payson Hall</a>'s Fundamentals of Successful Project Management class this week. Day one focuses on defining the project. </p>

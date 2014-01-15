@@ -1,12 +1,10 @@
 --- 
-category:  Writing
+title: Developing Story Ideas by Clustering
 date: 2008/05/22 03:16:42
 tags: 
 - fiction
-title: Developing Story Ideas by Clustering
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 In early April eleven of my local writer friends and I held a <a href="http://picasaweb.google.com/dhemery/WritersRetreat" title="Photo gallery of the SacNaNo/WordForge Spring 2008 Writer's Retreat">weekend writer's retreat</a> at a dome house in the Sierra Nevada foothills.

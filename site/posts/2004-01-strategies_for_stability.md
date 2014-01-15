@@ -1,14 +1,12 @@
 --- 
-category:  Leading
+title: Strategies for Stability
 date: 2004/01/13 18:15:00
 tags: 
+- leading
 - organizing
 - power
 - process
-title: Strategies for Stability
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> Laurent Bossavit's recent <a href="http://bossavit.com/thoughts/archives/000189.html">blog entry about stability</a> got me thinking, as his incipient thoughts always do. </p>

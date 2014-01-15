@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Success, Belief, and Identity
 date: 2003/04/04 02:06:00
 tags: 
+- leading
 - power
-title: Success, Belief, and Identity
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>

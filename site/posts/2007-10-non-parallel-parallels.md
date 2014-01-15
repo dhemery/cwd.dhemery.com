@@ -1,13 +1,11 @@
 --- 
-category:  Writing
+title: Non-parallel parallels
 date: 2007/10/24 21:50:40
 tags: 
 - fiction
 - nonfiction
-title: Non-parallel parallels
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 I listen to a lot of audio books.   Most are read by professional readers.   Every now and then a reader stumbles and emphasizes the wrong word.    It's tempting to attribute such errors to the reader, but I've notice that when a professional reader stumbles, there's likely a stumbling block in the writing.

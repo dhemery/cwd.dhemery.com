@@ -1,12 +1,9 @@
 --- 
-category:  Coding
-date: 2008/06/07 09:45:43
-tags: []
-
 title: Key Bindings in Eclipse/RCP Applications
-comments: true
-published: true
-layout: post
+date: 2008/06/07 09:45:43
+tags:
+- coding
+
 ---
 
 <strong>THE CONTEXT</strong>

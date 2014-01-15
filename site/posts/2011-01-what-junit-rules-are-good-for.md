@@ -1,13 +1,11 @@
 --- 
-category:  Coding
+title: What JUnit Rules are Good For
 date: 2011/01/04 14:20:41
 tags: 
+- coding
 - unit testing
 - JUnit
-title: What JUnit Rules are Good For
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>In <a href="http://cwd.dhemery.com/2010/12/junit-rules/">my previous post, I described how to write JUnit rules</a>. In this post, I'll describe some of the things rules are good for, with examples.</p>

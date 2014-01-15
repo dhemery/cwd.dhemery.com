@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: Sincerity
 date: 2003/04/28 16:21:00
 tags: 
+- leading
 - power
 - relating
-title: Sincerity
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> I'm a jerk sometimes. The other day, for example, I asked someone a question on a public mailing list. The question was of a kind that, in order to answer it, the person would have to admit to being a bonehead. </p>

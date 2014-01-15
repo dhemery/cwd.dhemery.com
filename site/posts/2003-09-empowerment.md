@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: Empowerment
 date: 2003/09/29 19:00:00
 tags: 
 - coaching
+- leading
 - power
-title: Empowerment
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> A mailing list in which I participate is discussing empowerment. As usually happens in discussions of empowerment, several people claimed that it is impossible for one person to empower another, that all you can do is to <em>disempower</em> them, to prevent them from using the power they have. </p>

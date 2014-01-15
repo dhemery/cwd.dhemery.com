@@ -1,12 +1,9 @@
 --- 
-category:  Resistance
-date: 2006/09/29 01:10:00
-tags: []
-
 title: What Questions Do You Have About Resistance?
-comments: true
-published: true
-layout: post
+date: 2006/09/29 01:10:00
+tags:
+- resistance
+
 ---
 
 I'd like your help to help guide my energy as I <a href="danofiwrimo.html">write during October</a>.  I'm more motivated when I know I'm writing about something that real people care about.  So I'd like to know <strong>What questions do you have about resistance?</strong>

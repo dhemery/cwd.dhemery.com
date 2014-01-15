@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Directives
 date: 2003/10/30 21:00:00
 tags: 
 - communicating
-title: Directives
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p> In response to my <a href="/cwd/2003/09/the_change_agents_offer.html">recent struggle</a> to find a single word that encompasses both "request" and "proposal," James Bullock <a href="/cwd/2003/09/the_change_agents_offer.html#comment-20031010043532">referred me</a> to linguists who study <em>speech acts,</em> acts that we perform through language. Examples of speech acts include requesting, proposing, praising, announcing, nagging, denouncing, welcoming, and convicting. </p>

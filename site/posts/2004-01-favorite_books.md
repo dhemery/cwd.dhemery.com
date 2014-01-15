@@ -1,18 +1,16 @@
 --- 
-category:  Leading
-- Resistance
+title: My Favorite Books of 2003
 date: 2004/01/04 20:00:00
 tags: 
 - books
 - coaching
 - collaborating
 - communicating
+- leading
 - power
 - relating
-title: My Favorite Books of 2003
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <dl>

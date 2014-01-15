@@ -1,13 +1,11 @@
 --- 
-category:  Resistance
+title: A Relationship is a Story
 date: 2003/12/04 03:00:00
 tags: 
 - communicating
 - relating
-title: A Relationship is a Story
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> A relationship is a story. I don't mean that as a metaphor. I mean it literally: <strong> A relationship is a story. </strong> In particular, a relationship is a story about two people responding to each other and with each other over time. </p>

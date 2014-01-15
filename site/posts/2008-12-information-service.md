@@ -1,12 +1,10 @@
 --- 
-category:  Testing
+title: Testing is an Information Service
 date: 2008/12/30 15:37:11
 tags: 
 - collaborating
-title: Testing is an Information Service
-comments: true
-published: true
-layout: post
+- testing
+
 ---
 
 <strong>Testing is an information service.</strong>  The point of testing is to inform stakeholders about the system.  This is not a new sentiment, nor does it originate with me.  But I've found that many testers have not considered their role from this perspective.

@@ -1,12 +1,10 @@
 --- 
-category:  Writing
+title: The CwD Shuffle
 date: 2007/10/20 14:07:16
 tags: 
 - blogging
-title: The CwD Shuffle
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 I've transferred Conversations with Dale (CwD) from my homegrown blogging system to WordPress.  And I've split it into four blogs.

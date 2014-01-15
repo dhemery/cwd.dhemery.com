@@ -1,14 +1,12 @@
 --- 
-category:  Leading
+title: One Small Thing
 date: 2010/12/13 12:55:26
 tags: 
 - coaching
+- leading
 - relating
 - training
-title: One Small Thing
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>At the end of a workshop in 1997, I offered a clichéd end-of-training activity: "How will you use what you've learned in this workshop? Write that down." A few people started to write. More people looked uncomfortable. More than half seemed to check out mentally, and two began to check out physically, gathering their belongings to leave.</p>

@@ -1,14 +1,12 @@
 --- 
-category:  Leading
+title: Technology
 date: 2004/08/04 02:05:00
 tags: 
 - glossary
+- leading
 - power
 - process
-title: Technology
-comments: true
-published: true
-layout: post
+
 ---
 
 <dl>

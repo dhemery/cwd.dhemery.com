@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: Empower
 date: 2004/08/17 16:50:00
 tags: 
 - glossary
+- leading
 - power
-title: Empower
-comments: true
-published: true
-layout: post
+
 ---
 
 <dl>

@@ -1,13 +1,11 @@
 --- 
-category:  Resistance
+title: Tests for Listening
 date: 2004/01/19 16:05:00
 tags: 
 - communicating
 - relating
-title: Tests for Listening
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p><em> Listening is a crucial skill. </em> You've heard that so often that it has become a platitude. I'm sad about that because... well... because listening is a crucial skill. </p>

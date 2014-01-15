@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: The Responsibility Razor
 date: 2003/04/07 18:30:00
 tags: 
+- leading
 - power
-title: The Responsibility Razor
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> I have developed a principle that helps me sort out my responsibilities. I call the principle <em>The Responsibility Razor</em> because it helps me slice through my confusion. </p>

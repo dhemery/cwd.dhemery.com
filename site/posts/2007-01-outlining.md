@@ -1,12 +1,10 @@
 --- 
-category:  Writing
+title: Outlining and strawberries
 date: 2007/01/10 01:12:00
 tags: 
 - fiction
-title: Outlining and strawberries
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 <font size="2">

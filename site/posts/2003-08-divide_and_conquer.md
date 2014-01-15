@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Divide and Conquer
 date: 2003/08/20 22:00:00
 tags: 
+- leading
 - power
-title: Divide and Conquer
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> I've been revising my <a href="/training/resistance_as_a_resource.html">Resistance as a Resource Workshop</a>. One of the improvements I want most is to add exercises to help participants explore how relationship issues affect resistance, and how to address those issues. I've been having difficulty creating good exercises. </p>

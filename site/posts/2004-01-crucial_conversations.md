@@ -1,16 +1,14 @@
 --- 
-category:  Leading
-- Resistance
+title: Crucial Conversations
 date: 2004/01/04 20:05:00
 tags: 
 - books
 - communicating
+- leading
 - power
 - relating
-title: Crucial Conversations
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> If you look at my list of <a href="/2004/01/favorite_books/">favorite books of 2003</a>, you'll notice that over the past year I've been a student of conversation and relationships. I've been especially interested in how we can make our conversations more rewarding for ourselves, for others, and for our relationships. <strong>

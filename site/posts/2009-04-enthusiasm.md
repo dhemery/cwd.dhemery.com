@@ -1,12 +1,9 @@
 --- 
-category:  Leading
-date: 2009/04/20 16:35:44
-tags: []
-
 title: Enthusiasm as a Human Resource
-comments: true
-published: true
-layout: post
+date: 2009/04/20 16:35:44
+tags:
+- leading
+
 ---
 
 Every so often someone rants about the term “human resources.”  <em>A person is not a resource</em>, they say.  <em>A person is a person.</em>  True enough.

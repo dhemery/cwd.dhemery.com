@@ -1,12 +1,10 @@
 --- 
-category:  Resistance
+title: Meet People Where They Are
 date: 2003/05/10 17:19:00
 tags: 
 - relating
-title: Meet People Where They Are
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> When you are asking people to change, it is important to understand how people respond to change. In my article "<a href="/articles/managing_yourself_through_change">Managing Yourself Through Change</a>" describes the Satir Change Model. This model says that when we respond to change, we move through four stages: Old Status Quo, Chaos, Practice and Integration, and New Status Quo. </p>

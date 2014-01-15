@@ -1,13 +1,11 @@
 --- 
-category:  Coding
-- Testing
+title: Planned Response Systems
 date: 2009/02/19 01:12:14
 tags: 
+- coding
 - design
-title: Planned Response Systems
-comments: true
-published: true
-layout: post
+- testing
+
 ---
 
 I first learned about the idea of planned response systems from III, a colleague and friend of mine.  I later read about the idea in depth in McMenamin and Palmer's profound book <em><a href="http://www.amazon.com/exec/obidos/ASIN/0917072308/dalehemery-20">Essential Systems Analysis</a></em>.

@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Risk and Commitment
 date: 2003/09/11 16:30:00
 tags: 
 - collaborating
-title: Risk and Commitment
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p> The SEPG Conference in Boston in 1995 had a bookstore. One of the books I browsed offered an idea about risk — something like, <strong> "Risk comes from commitment." </strong>

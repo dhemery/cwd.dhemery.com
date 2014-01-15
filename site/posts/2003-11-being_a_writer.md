@@ -1,14 +1,12 @@
 --- 
-category:  Writing
+title: Being a Writer
 date: 2003/11/11 06:00:00
 tags: 
 - books
 - fiction
 - nonfiction
-title: Being a Writer
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 <em><a href="http://www.amazon.com/exec/obidos/ASIN/0072378735/dalehemer-20">Being a Writer</a></em>,  by Peter Elbow and Pat Belanoff, is a gold mine of activities and assignments for exploring variations on your writing process.

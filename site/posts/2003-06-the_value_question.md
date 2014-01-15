@@ -1,14 +1,12 @@
 --- 
-category:  Leading
-- Resistance
+title: The Value Question
 date: 2003/06/03 15:24:00
 tags: 
 - coaching
 - collaborating
-title: The Value Question
-comments: true
-published: true
-layout: post
+- leading
+- resistance
+
 ---
 
 Often when people become stuck trying to solve a problem, they are stuck because they are trying to solve the problem <em>in a specific way.</em> They've framed the problem in a way that suggests a particular solution, and then taken that specific solution as their goal. The process of taking a specific solution as the goal — a process that my friend <a href="http://www.satisfice.com">James Bach</a> calls <em>"goal displacement"</em> — sometimes constrains the problem in a way that makes it difficult or impossible to solve. That's when people get stuck.

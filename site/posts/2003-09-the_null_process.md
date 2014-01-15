@@ -1,14 +1,12 @@
 --- 
-category:  Leading
+title: The Null Process
 date: 2003/09/16 20:35:00
 tags: 
 - collaborating
+- leading
 - organizing
 - process
-title: The Null Process
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> Once upon a time, I worked in the IT department of a large company, leading a cross-organizational process development team to define, promote, and support a standard software development process to be used by most IT projects. Like many organizations' standard development processes, ours was large — it defined about 30 roles, 40 deliverables, and 50 activities organized into seven phases. In trying to make the process comprehensive, we had made it cumbersome. </p>

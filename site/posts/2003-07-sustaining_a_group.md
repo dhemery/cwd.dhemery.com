@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Sustaining a Group
 date: 2003/07/31 22:15:00
 tags: 
 - collaborating
-title: Sustaining a Group
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p> Earlier today I attended the kickoff planning meeting for the Sacramento chapter of the Organization Development Network. Pamela Dungan, who convened the meeting, began by describing the <a href="open_space_technology/">Open Space Technology</a> format that would be using for meeting. The focus for the meeting would be "rekindling our network." In her opening, Pamela described how the chapter had formed and faltered several times over the past few years. I thought that was an important issue to address, so I proposed a session to identify what factors sustain a group, and what factors lead a group to falter. </p>

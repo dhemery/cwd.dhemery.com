@@ -1,15 +1,13 @@
 --- 
-category:  Writing
+title: A Spiral Method Writing Session
 date: 2004/03/06 00:52:00
 tags: 
 - nonfiction
-title: A Spiral Method Writing Session
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
-If you want to see what my <a href="http://www.dhemery.com/dalewriting/2004/03/spiral_method">Spiral Method</a> sessions look like, below is the raw, unedited zeroth draft for my article "<a href="http://www.dhemery.com/cwd/2004/01/strategies_for_stability.html">Strategies for Stability</a>."  The numbers match the answers to the corresponding questions (e.g. A1 is the answer to Q1).  The starred items (*) are ideas that popped into my head, not directly related to any question.
+If you want to see what my <a href="http://www.dhemery.com/dalewriting/2004/03/spiral_method">Spiral Method</a> sessions look like, below is the raw, unedited zeroth draft for my article "<a href="http://www.dhemery.com/cwd/2004/01/strategies_for_stability.html">Strategies for Stability</a>."  The numbers match the answers to the corresponding questions (e.g. A1 is the answer to Q1).  The starred items (\*) are ideas that popped into my head, not directly related to any question.
 
 Nugget: People change in order to remain the same.  That is, we will change something less important in order to maintain something that is more important.
 

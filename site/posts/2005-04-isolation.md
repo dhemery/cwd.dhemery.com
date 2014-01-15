@@ -1,13 +1,11 @@
 --- 
-category:  Coding
-- Testing
+title: Test Classes in Isolation and in Collaboration
 date: 2005/04/14 17:40:00
 tags: 
+- coding
+- test automation
 - unit testing
-title: Test Classes in Isolation and in Collaboration
-comments: true
-published: true
-layout: post
+
 ---
 
 When I'm talking to programmers about writing tests for their own code, one of the questions that comes up often is:  <em>Should we test classes in isolation from each other, or in collaboration with each other?</em>

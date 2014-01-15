@@ -1,14 +1,12 @@
 --- 
-category:  Leading
+title: A Simple Measurement
 date: 2003/12/02 14:20:00
 tags: 
 - collaborating
+- leading
 - organizing
 - relating
-title: A Simple Measurement
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>

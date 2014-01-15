@@ -1,14 +1,12 @@
 --- 
-category:  Writing
+title: Writing the Natural Way
 date: 2003/11/11 06:00:00
 tags: 
 - books
 - fiction
 - nonfiction
-title: Writing the Natural Way
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 Gabriele Rico's  <em><a href="http://www.amazon.com/exec/obidos/ASIN/0874772362/dalehemer-20">Writing the Natural Way</a> </em>centers on <strong><em>clustering,</em> a technique for quickly making explicit the ideas and associations we have about a topic: </strong>

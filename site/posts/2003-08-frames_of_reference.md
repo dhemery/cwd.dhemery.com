@@ -1,12 +1,10 @@
 --- 
-category:  Resistance
+title: Frames of Reference
 date: 2003/08/02 00:10:00
 tags: 
 - communicating
-title: Frames of Reference
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> Yesterday, the U. S. Department of Labor released its latest labor statistics. An online community in which I participate had a conversation about the unemployment rate, which was reported at 6.2 percent. Several people told stories of their difficulty finding jobs. One person offered some historical information, and said that from a historical perspective, "6% unemployment is really considered pretty danged good." Another replied, "I only deal in what I know from my own experience... Probably a quarter of the people i know are out of work... In this case, historical perspective is just worthless." </p>

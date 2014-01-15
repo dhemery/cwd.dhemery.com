@@ -1,12 +1,10 @@
 --- 
-category:  Writing
+title: The Spiral Method for Writing Zeroth Drafts
 date: 2004/03/06 00:50:00
 tags: 
 - nonfiction
-title: The Spiral Method for Writing Zeroth Drafts
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 One night in late December, as I was falling asleep, I had a thought about how to flesh out ideas for articles.  I sat up, grabbed a pen and an index card from the stack I keep next to the bed, and wrote:

@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: Planning
 date: 2004/07/15 16:50:00
 tags: 
 - glossary
+- leading
 - planning
-title: Planning
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> On the Agile Project Management mailing list, in the midst of an enthusiastic dialogue about the value of planning, <a href="http://www.clarkeching.com/">Clarke Ching</a> asked the clarifying and orienting question, "What is planning?" </p>

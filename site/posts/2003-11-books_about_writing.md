@@ -1,14 +1,12 @@
 --- 
-category:  Writing
+title: Books about Writing
 date: 2003/11/11 06:01:00
 tags: 
 - books
 - fiction
 - nonfiction
-title: Books about Writing
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 At the <a href="http://www.ayeconference.com">AYE conference</a> last week, I attended <a href="http://www.jrothman.com">Johanna Rothman</a>'s and <a href="http://www.nkarten.com">Naomi Karten</a>'s excellent <a href="http://www.ayeconference.com/wiki/scribble.cgi?read=SessionThree021">writing workshop</a>. During the workshop, I mentioned some of my favorite books about writing. Several people asked me to post a list of books that I've found helpful. Here's the list.

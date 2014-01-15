@@ -1,12 +1,10 @@
 --- 
-category:  Resistance
+title: Valuing Activity
 date: 2004/08/04 03:05:00
 tags: 
 - process
-title: Valuing Activity
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> Here are some of the ways I may gain value from any given activity: </p>

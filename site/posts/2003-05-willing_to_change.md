@@ -1,13 +1,11 @@
 --- 
-category:  Resistance
+title: Willing to Change
 date: 2003/05/21 15:36:00
 tags: 
 - communicating
 - relating
-title: Willing to Change
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> On the <a href="http://groups.yahoo.com/group/MasteringProjectWork">Mastering Project Work</a> mailing list, <a href="http://www.projectcommunity.com/whoweare.html">Amy Schwab</a> offered <a href="http://groups.yahoo.com/group/MasteringProjectWork/message/59">this nice quotation</a>: </p>

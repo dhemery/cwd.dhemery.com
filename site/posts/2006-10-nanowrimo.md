@@ -1,12 +1,10 @@
 --- 
-category:  Writing
+title: NaNoWriMo
 date: 2006/10/31 19:50:00
 tags: 
 - dalefiction
-title: NaNoWriMo
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 A year after running away from home, twelve-year-old Jeremy Crowther returns to resume the life he left behind.  But when nobody recognizes him—not his mother, not his brother and sister, not his best friend—when even the physical evidence denies that he ever existed, what life is left for Jeremy to return to?

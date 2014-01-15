@@ -1,15 +1,13 @@
 --- 
-category:  Leading
-- Resistance
+title: Bob and Dale Chat about Social Challenges at Work
 date: 2010/06/20 12:03:55
 tags: 
 - communicating
+- leading
 - power
 - relating
-title: Bob and Dale Chat about Social Challenges at Work
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p>A few weeks ago, at Agile Development Practices West 2010 conference in Las Vegas, my friend and colleague <a href="http://electroglide.biz/">Bob Payne</a> hosted me for an episode of his Agile Toolkit podcast. I invite you to listen to <a href="http://bit.ly/cQFhIW">our half-hour conversation</a> and to <a href="http://agiletoolkit.libsyn.com/">other episodes</a> about all things Agile.</p>

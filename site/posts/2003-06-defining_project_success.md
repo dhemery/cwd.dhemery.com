@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: Defining Project Success
 date: 2003/06/25 23:25:00
 tags: 
 - collaborating
+- leading
 - projects
-title: Defining Project Success
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> In "<a href="/2003/06/congruence_and_the_prime_directive/">Congruence and the Prime Directive</a>", I wrote about how congruence — honoring Self, Other, and Context — allows people to bring their talents more fully into a project. By bringing greater talent to bear, congruence helps projects succeed. </p>

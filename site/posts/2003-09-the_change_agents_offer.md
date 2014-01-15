@@ -1,13 +1,11 @@
 --- 
-category:  Leading
-- Resistance
+title: The Change Agent's Offer
 date: 2003/09/30 17:30:00
 tags: 
 - coaching
-title: The Change Agent&#039;s Offer
-comments: true
-published: true
-layout: post
+- leading
+- resistance
+
 ---
 
 <p> Often when I write about resistance, I struggle to find the right word for the change agent's action, the action people are resisting when they resist. Would-be change agents offer advice, requests, demands, mandates, proposals, and lots of other... what? What is the category that encompasses all of these offers? </p>

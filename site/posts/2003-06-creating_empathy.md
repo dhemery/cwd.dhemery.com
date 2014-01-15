@@ -1,12 +1,10 @@
 --- 
-category:  Resistance
+title: Creating Empathy
 date: 2003/06/11 21:42:00
 tags: 
 - relating
-title: Creating Empathy
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 In response to <a href="/2003/06/dont_be_nice_be_real/">my recent review</a> of Kelly Bryson's book <em><a href="http://www.amazon.com/exec/obidos/ASIN/0972002855/dalehemery-20">Don't Be Nice, Be Real</a></em>, a few of us on the <a href="http://groups.yahoo.com/group/resistance-as-a-resource">Resistance as a Resource mailing list</a> have been talking about empathy. Several people have asked, "How can I feel empathy for someone I don't feel empathy for?" Good question. What I'd thought was a great idea seems more like a great conundrum.

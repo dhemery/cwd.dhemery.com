@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Your Needs for Workshops about Power and Leadership
 date: 2004/08/15 22:20:00
 tags: 
+- leading
 - power
-title: Your Needs for Workshops about Power and Leadership
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> I'm developing two workshops, one about leadership and another about power.  These workshops are for software people—developers, managers, executives, and others—and I'd like your input. </p>

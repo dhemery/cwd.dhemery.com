@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Joy, Value, and Meaning
 date: 2003/03/31 14:21:00
 tags: 
 - collaborating
-title: Joy, Value, and Meaning
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p> Josh, a manager, once asked me to facilitate his team meeting, which he would be unable to attend. </p>

@@ -1,13 +1,11 @@
 --- 
-category:  Leading
+title: The Benefits of Failure
 date: 2003/06/10 14:00:00
 tags: 
 - coaching
+- leading
 - power
-title: The Benefits of Failure
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> A few weeks ago, Peter Lindberg <a href="http://tesugen.com/06/01.html#maximzinglearning">wrote about maximizing learning</a> on his <a href="http://www.tesugen.com">Tesugen.com</a> weblog: </p>

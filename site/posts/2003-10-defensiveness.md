@@ -1,13 +1,11 @@
 --- 
-category:  Resistance
+title: Defensiveness
 date: 2003/10/30 17:00:00
 tags: 
 - communicating
 - relating
-title: Defensiveness
-comments: true
-published: true
-layout: post
+- resistance
+
 ---
 
 <p> Agile software development methods are relatively new. Many months ago, in response to hearing many people demand "proof" that Agile methods work, Scott Ambler <a href="http://www.agilemodeling.com/essays/proof.htm">explained</a> why he thought that asking for proof was not likely to be fruitful, at least for now. Last week, Mr. Ed, a self-proclaimed skeptic of Agile methods, <a href="http://www.hacknot.info/servlet/HS?cmd=sen&amp;eid=32">pointed out</a> what he sees as many logical fallacies in Scott's article, and offered his analysis as evidence that "the quality of discussion surrounding Agile methods is often low." </p>

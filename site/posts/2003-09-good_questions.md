@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Good Questions
 date: 2003/09/12 17:45:00
 tags: 
 - coaching
-title: Good Questions
-comments: true
-published: true
-layout: post
+- leading
+
 ---
 
 <p> Last week at Consultants' Camp, several friends reminded me that I have a reputation for asking good questions. One of my friends, <a href="http://www.satisfice.com">James Bach</a>, asked me, "How do you do that? How do you decide what questions to ask?" </p>

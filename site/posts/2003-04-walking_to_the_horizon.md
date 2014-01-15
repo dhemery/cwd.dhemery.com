@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Walking to the Horizon
 date: 2003/04/10 02:00:00
 tags: 
+- leading
 - power
-title: Walking to the Horizon
-comments: true
-published: true
-layout: post
+
 ---
 
 <p> Every time I make an improvement in some process, I begin to see other improvements I could make. This has a good side and a bad side. The good side is that I make my processes better and better. </p>

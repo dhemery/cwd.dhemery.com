@@ -1,12 +1,10 @@
 --- 
-category:  Leading
+title: Multitasking and Conflict
 date: 2005/11/03 03:00:00
 tags: 
+- leading
 - relating
-title: Multitasking and Conflict
-comments: true
-published: true
-layout: post
+
 ---
 
 <p>Every few months one or more of my blogger friends writes about some new research about the effects of multitasking.  Multitasking, the research invariably says, doesn't finish the work any faster.  In fact, multitasking usually makes work take longer.</p>

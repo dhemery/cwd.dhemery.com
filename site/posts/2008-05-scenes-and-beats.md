@@ -1,12 +1,10 @@
 --- 
-category:  Writing
+title: Scenes and Beats
 date: 2008/05/09 16:37:56
 tags: 
 - fiction
-title: Scenes and Beats
-comments: true
-published: true
-layout: post
+- writing
+
 ---
 
 <strong>Two types of scenes.</strong>  Most of the scenes I write fall into one of two types:  <strong>Action scenes</strong> in which the point-of-view (POV) character acts toward a goal and encounters conflict, and <strong>reaction scenes</strong> in which the POV character reels from a setback and decides what to do next.
