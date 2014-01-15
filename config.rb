@@ -1,5 +1,5 @@
 require 'middleman-blog'
-page "/feed.xml", layout: false
+page "/atom.xml", layout: false
 
 configure :build do
 end
