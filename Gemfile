@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
-gem 'middleman'
-gem 'middleman-blog'
-gem "builder", "~> 3.0"
+
+# Delegate to diddleman's Gemfile
+eval(IO.read(File.join('diddleman', 'Gemfile')), binding)

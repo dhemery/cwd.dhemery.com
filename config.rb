@@ -1,20 +1,3 @@
-require 'middleman-blog'
-page "/atom.xml", layout: false
+# Delegate to diddleman's config.rb file
+eval(File.read(File.join('diddleman', 'config.rb')))
 
-configure :build do
-end
-
-activate :blog do |blog|
-    blog.sources = "posts/:year-:month-:title"
-    blog.default_extension = ".md"
-
-    blog.layout = "post"
-    blog.permalink = ":year/:month/:title"
-
-    blog.tag_template = "tag.html"
-    blog.taglink = "tag/:tag/index.html"
-
-    blog.paginate = false
-end
-
-activate :directory_indexes
