@@ -1,2 +1,4 @@
+#$debug = true
+
 # Delegate to diddleman's Rakefile
-load File.join('diddleman', 'Rakefile')
+import File.join('diddleman', 'tasks.rake')

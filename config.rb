@@ -1,3 +1,5 @@
-# Delegate to diddleman's config.rb file
-eval(File.read(File.join('diddleman', 'config.rb')))
+$middleman = self
+#$debug = true
 
+# Delegate to diddleman's middleman-config.rb file
+load File.join('diddleman', 'middleman-config.rb')

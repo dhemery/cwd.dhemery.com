@@ -1,4 +1,7 @@
-source 'https://rubygems.org'
+$: << Dir.pwd
+
+$bundler = self
+#$debug = true
 
 # Delegate to diddleman's Gemfile
-eval(IO.read(File.join('diddleman', 'Gemfile')), binding)
+require File.join('diddleman', 'gems')
