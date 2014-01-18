@@ -1,2 +1,2 @@
-$bundler.gem "middleman-syntax"
-$bundler.gem "redcarpet"
+$bundler.gem 'middleman-syntax'
+$bundler.gem 'coderay'

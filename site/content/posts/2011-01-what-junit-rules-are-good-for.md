@@ -98,7 +98,7 @@ With Kent's helpful advice and examples in hand,
 I was able to quickly write a rule
 that did exactly what my client and I needed:
 
-``` java
+~~~ java
 public class ExceptionWrapperRule implements MethodRule {
     public Statement apply(final Statement base, FrameworkMethod method, Object target) {
         return new Statement() {
@@ -112,7 +112,7 @@ public class ExceptionWrapperRule implements MethodRule {
         };
     }
 }
-```
+~~~
 
 In our test code,
 at the point where we establish the Selenium session,
@@ -162,11 +162,11 @@ the obvious choice for the job name is the name of the test.
 But how to access the name of the test?
 Certainly we could add a line like this to each test:
 
-```java
+~~~ java
 @Test public void myTest() {
     sendSauceJobName("myTest");
 }
-```
+~~~
 
 But that's crazy talk.
 Much better would be a way to detect the test name at runtime,
@@ -174,7 +174,7 @@ in a single place in the code.
 How to detect the test name?
 Rules to the rescue. We wrote this rule:
 
-```java
+~~~ java
 public class TestNameSniffer implements MethodRule {
     private String testName;
 
@@ -189,7 +189,7 @@ public class TestNameSniffer implements MethodRule {
         return testName;
     }
 }
-```
+~~~
 
 The rule stashes the test name,
 and other code later sends the name to Selenium RC.
@@ -211,7 +211,7 @@ To
 [use JMock in your test code](http://www.jmock.org/)
 you declare a field that is an instance of the JUnitRuleMockery class:
 
-```java
+~~~ java
 public class MyTestClass {
     @Rule
     public JUnitRuleMockery context = new JUnitRuleMockery();
@@ -225,11 +225,11 @@ public class MyTestClass {
         ... // Invoke the method being tested.
     }
 }
-```
+~~~
 
 JUnitRuleMockery is a rule whose `apply()` looks like this:
 
-``` java
+~~~ java
 @Override
 public Statement apply(final Statement base, FrameworkMethod method, final Object target) {
     return new Statement() {
@@ -243,7 +243,7 @@ public Statement apply(final Statement base, FrameworkMethod method, final Objec
         ... // Declarations of prepare() and assertIsSatisfied()
     }
 }
-```
+~~~
 
 Before the statement executes the test,
 it first calls `prepare()`, which initializes each mock collaborator field declared by the test class. For the example test class, `prepare()` initializes `aCollaborator` with a mock instance of `ACollaboratorClass`.
