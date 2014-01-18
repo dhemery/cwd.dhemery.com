@@ -9,13 +9,13 @@ tags:
 
 <p>As we begin this episode, I’ve just created <a href="https://github.com/dhemery/Towers/commit/252be5b80247ba67f5e04a25ad5ac4b88c0c059a">a fresh repository</a>, and I’m ready to start developing my Towers game.</p>
 
-<h3>The Walking Skeleton</h3>
+# The Walking Skeleton
 
 <p>I pick what I think will be a good “walking skeleton” feature, a feature chosen specifically to quickly conjure much of the application structure into existence. I choose this feature: <em>On launch, Towers displays an 8 block x 8 block “city” of black and white towers, each one floor high, arranged in a checkerboard pattern.</em></p>
 
 <p>With this feature in mind, I write the first acceptance test.</p>
 
-<h3>The City is Eight Blocks Square</h3>
+# The City is Eight Blocks Square
 
 <p><strong>Acceptance test: <em><a href="https://github.com/dhemery/Towers/blob/7bf3a0496709373f5724e2b7a7dfebdf45b17698/test/acceptance/com/dhemery/towers/application/OnLaunch.java">The city is eight blocks square.</a></em></strong> I try to make the test very expressive, using a “fluent” style of assertions. To support the test, I write a <code><a href="https://github.com/dhemery/Towers/blob/057d4dec5bbce846f2cb666fbd40fda92812c2b6/test/acceptance/com/dhemery/towers/application/fixtures/CityFixture.java">CityFixture</a></code> class to access information about the city through the GUI, and a <code><a href="https://github.com/dhemery/Towers/blob/057d4dec5bbce846f2cb666fbd40fda92812c2b6/test/acceptance/com/dhemery/towers/application/fixtures/CityAssertion.java">CityAssertion</a></code> class to build the fluent assertion DSL. (This may seem overly complex to you. Hold that thought.)</p>
 
@@ -27,7 +27,7 @@ tags:
 
 <p>At this point, Towers has a display (an empty JFrame), which is prepared to display 64 somethings in an 8 x 8 grid. But it doesn’t yet display any somethings. It’s an 8 x 8 ghost city.</p>
 
-<h3>Each City Block Has a One Floor Tower</h3>
+# Each City Block Has a One Floor Tower
 
 <p><strong>Acceptance test: <em><a href="https://github.com/dhemery/Towers/blob/ec08ffa0727c1fd314fed881fd1086e8d63227bd/test/acceptance/com/dhemery/towers/application/OnLaunch.java">Each city block has a one floor tower</a>.</em></strong> To extend the test DSL, I add <code><a href="https://github.com/dhemery/Towers/blob/ec08ffa0727c1fd314fed881fd1086e8d63227bd/test/acceptance/com/dhemery/towers/application/fixtures/TowerFixture.java">TowerFixture</a></code> and <code><a href="https://github.com/dhemery/Towers/blob/ec08ffa0727c1fd314fed881fd1086e8d63227bd/test/acceptance/com/dhemery/towers/application/fixtures/TowerAssertion.java">TowerAssertion</a></code> classes. (This DSL stuff may now seem even more complex to you. Hold that thought.)</p>
 
@@ -43,7 +43,7 @@ tags:
 
 <p><strong>Repospectives.</strong> As I step through the commit chain, I see my sins laid out before me. If Saint Peter uses git, I'm fucked. But I wonder: What else might we learn by stepping through our own git repositories?</p>
 
-<h3>Towers Alternate Colors</h3>
+# Towers Alternate Colors
 
 <p><strong>Acceptance Test: <em><a href="https://github.com/dhemery/Towers/blob/master/test/acceptance/com/dhemery/towers/application/OnLaunch.java">Towers alternate colors</a>.</em></strong> I express this by checking that towers alternate colors down the first column, and that towers alternate colors along each row.</p>
 
@@ -67,7 +67,7 @@ tags:
 
 <p>This will change in the next episode when, within seconds of committing this code, I somewhat appease my I MUST ALWAYS ADD CODE IN THE RIGHT PLACE fetish by immediately extracting a new class.</p>
 
-<h3>That Skeleton Won’t Walk</h3>
+# That Skeleton Won’t Walk
 
 <p>There’s a problem here. Though I’ve implemented the entire walking skeleton feature, and the implementation brings major chunks of the user interface into existence, the feature does not yet compel the system to respond to any events. It therefore does not require the system to do anything or decide anything in response to external events.</p>
 

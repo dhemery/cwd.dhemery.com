@@ -43,7 +43,7 @@ The key ingredients of the whole enchilada are:
 	<li>A <em>key binding</em> that invokes the command (that invokes the action).</li>
 	<li>A <em>plug-in configuration file</em> that enables your key bindings.</li>
 </ol>
-<h3></h3>
+
 <strong>Action.</strong>  First, create an action that the keystroke will invoke.  I'll assume that you know how to create an Action in RCP.  If you need help with this, see the <a href="http://www.amazon.com/exec/obidos/ASIN/0321334612/dalehemery-20" title="Designing, Coding, and Packaging Java(TM) Applications">RCP book</a>.
 
 The secret sauce here is that you have <em>to make the action available for invocation by commands</em>.  To do that:
