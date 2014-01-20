@@ -1,2 +1,2 @@
-desc "Merge by default"
-task default: :merge
+desc "Build by default"
+task default: :build
