@@ -1,0 +1,16 @@
+%section
+  - posts.group_by{|p| p.date.year}.each do |year, year_posts|
+    %section.year
+      %header
+        %h1
+          = year
+      - year_posts.group_by{|p| p.date.month}.each do |month, month_posts|
+        %section.month
+          %header
+            %h1
+              = month_posts[0].date.strftime('%B %Y')
+          %section.post-list
+            - month_posts.each do |post|
+              %section.post-summary
+                = partial "layouts/blog/post/header", locals: {title: post.title, date: post.date, url: post.url, tags: post.tags}
+= partial "layouts/blog/comment-count"

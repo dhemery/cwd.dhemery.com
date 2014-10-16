@@ -1,0 +1,6 @@
+---
+layout: page
+---
+%header.page-header
+  = partial "layouts/title", locals: {title: "Posts Tagged: #{tagname}", :url => tag_path(tagname)}
+= partial "layouts/blog/index", locals: {url: tag_path(tagname), posts: articles }

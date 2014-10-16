@@ -1,6 +1,4 @@
-/.bundle
-/.sass-cache
-/build
-/nginx
-/source
+/.bundle/
+/.sass-cache/
+/build/
 

@@ -1,0 +1,10 @@
+%header
+  = partial "layouts/title", locals: {title: title, url: url}
+  %section.post-meta
+    %time{datetime: date.strftime('%Y-%m-%d')}
+      = date.strftime('%B %e, %Y')
+    |
+    %a.site-link{href: "http://#{data.site.domain}#{url}#disqus_thread"}
+    |
+    Tags:
+    = tags.map{|c| link_to c, tag_path(c), class: 'site-link'}.join(', ')
