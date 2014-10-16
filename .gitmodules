@@ -1,9 +1,0 @@
-[submodule "diddleman"]
-	path = diddleman
-	url = git@github.com:dhemery/diddleman
-[submodule "dhe.domain"]
-	path = dhe.domain
-	url = git@github.com:dhemery/dhe.domain
-[submodule "dogger"]
-	path = dogger
-	url = git@github.com:dhemery/dogger

@@ -1,7 +1,11 @@
-$: << Dir.pwd
+source "https://rubygems.org"
 
-$bundler = self
-#$debug = true
+gem 'middleman'
+gem 'middleman-deploy', '~> 0.3.0'
+gem 'middleman-blog'
+gem 'middleman-syntax'
 
-# Delegate to diddleman's Gemfile
-require File.join('diddleman', 'gems')
+gem 'builder'
+gem 'coderay'
+gem 'tzinfo'
+
