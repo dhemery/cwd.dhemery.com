@@ -8,6 +8,7 @@ set :haml, {ugly: true}
 page "/atom.xml", layout: false
 
 activate :deploy do |deploy|
+  deploy.build_before = true
   deploy.method = :rsync
   deploy.host   = host.domain
   deploy.user   = host.user
