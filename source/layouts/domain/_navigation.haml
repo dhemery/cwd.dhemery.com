@@ -1,14 +1,8 @@
 .navigation-bar
   %ul
-    %li
-      %a{href: relativize('http://dhemery.com/')} Dale
-    %li
-      %a{href: relativize('http://dhemery.com/consulting/')} Consulting
-    %li
-      %a{href: relativize('http://cwd.dhemery.com/')} Blog
-    %li
-      %a{href: relativize('http://dhemery.com/articles/')} Articles
-    %li
-      %a{href: relativize('http://dhemery.com/about/')} About
-    %li
-      %a{href: relativize('http://dhemery.com/contact/')} Contact
+    %li= link_to 'Dale', 'http://dhemery.com/'
+    %li= link_to 'Consulting', 'http://dhemery.com/consulting/'
+    %li= link_to 'Blog', '/'
+    %li= link_to 'Articles', 'http://dhemery.com/articles/'
+    %li= link_to 'About', 'http://dhemery.com/about/'
+    %li= link_to 'Contact', 'http://dhemery.com/contact/'

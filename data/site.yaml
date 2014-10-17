@@ -8,7 +8,3 @@ copyright: 2003&#8211;2014 Dale H. Emery
 author:
   name: Dale H. Emery
   email: dale@dhemery.com
-modules:
-- dhe.domain
-- dogger
-- site
