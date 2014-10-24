@@ -104,7 +104,7 @@ and what information is lost.
 # The Java _assert_ Statement
 
 Our example test
-espresses an assertion using a Java assertion statement:
+expresses an assertion using a Java assertion statement:
 
     assert item.text().equals("foo");
 
