@@ -3,8 +3,11 @@ host = OpenStruct.new(YAML::load_file(File.join('data', 'host.yaml')))
 
 Time.zone = site['timezone']
 set :layout, :page
-set :haml, {ugly: true}
 page "/atom.xml", layout: false
+
+
+activate :syntax do |syntax|
+end
 
 activate :deploy do |deploy|
   deploy.build_before = true
@@ -28,7 +31,7 @@ activate :blog do |blog|
     blog.paginate = false
 end
 
-set :markdown, fenced_code_blocks: true, smartypants: true, use_coderay: true
-
 activate :directory_indexes
-
+set :markdown_engine, :kramdown
+set :markdown, fenced_code_blocks: true, smartypants: true, use_coderay: true
+set :haml, {ugly: true}

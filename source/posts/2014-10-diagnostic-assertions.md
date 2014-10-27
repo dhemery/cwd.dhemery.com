@@ -46,25 +46,29 @@ the diagnostic value of different kinds of assertions.
 **A class.**
 Here is a very simple class, an item with text:
 
-    public class Item {
-        private final String text;
+~~~ java
+public class Item {
+    private final String text;
 
-        public Item(String text) {
-            this.text = text;
-        }
-
-        public String text() {
-            return text;
-        }
+    public Item(String text) {
+        this.text = text;
     }
+
+    public String text() {
+        return text;
+    }
+}
+~~~
 
 **A test.**
 Here is a test:
 
-    public void findItemReturnsAnItemWithTextFoo() {
-        Item item = someObject.findItem();
-        assert item.text() == "foo";
-    }
+~~~ java
+public void findItemReturnsAnItemWithTextFoo() {
+    Item item = someObject.findItem();
+    assert item.text() == "foo";
+}
+~~~
 
 The test asks `someObject` to find an item,
 then asserts that the item's text is equal to `"foo"`.
@@ -106,7 +110,9 @@ and what information is lost.
 Our example test
 expresses an assertion using a Java assertion statement:
 
-    assert item.text().equals("foo");
+~~~ java
+assert item.text().equals("foo");
+~~~
 
 Notice that this short statement
 gives a _lot_ of information about our intentions:
@@ -196,11 +202,13 @@ has been lost.
 Now let's try another style of assertion,
 the `assertTrue()` method from JUnit:
 
-    assertTrue(item.text().equals("foo"));
+~~~ java
+assertTrue(item.text().equals("foo"));
+~~~
 
 This method produces the same error message as the bare Java `assert` statement:
 
-> java.lang.AssertionError
+>   java.lang.AssertionError
 
 again supplemented by a stack trace that points to the assertion in the code.
 
@@ -229,7 +237,9 @@ _the explanatory message_
 With the Java `assert` statement,
 you add an explanatory message like this:
 
-    assert item.text().equals("foo") : "Item text should be foo";
+~~~ java
+assert item.text().equals("foo") : "Item text should be foo";
+~~~
 
 If this assertion fails,
 Junit displays this message:
@@ -268,7 +278,9 @@ you also have to do the extra work of changing the comment.
 JUnit includes a form of `assertTrue()` method that takes an explanation
 as its first parameter:
 
-    assertTrue("Item text should be foo", item.text().equals("foo"));
+~~~ java
+assertTrue("Item text should be foo", item.text().equals("foo"));
+~~~
 
 I find this expression more awkward then the `assert` statement.
 With the `assert` statement,
@@ -334,7 +346,9 @@ If you want to compare values for equality,
 the appropriate method is (appropriately) called `assertEquals()`.
 It looks like this:
 
-    assertEquals("foo", item.text());
+~~~ java
+assertEquals("foo", item.text());
+~~~
 
 Though this shifts the phrasing
 (the concept of equality now appears earlier in the expression,
@@ -403,7 +417,9 @@ JUnit offers a form of `assertEquals()` that takes an explanatory message.
 Let's use that to restore a few of the pieces
 that still don't get for free:
 
-    assertEquals("Item text", "foo", item.text());
+~~~ java
+assertEquals("Item text", "foo", item.text());
+~~~
 
 Now the failure message is:
 
@@ -437,7 +453,9 @@ called _Hamcrest.[^hamcrest]_.
 Hamcrest also includes an `assertThat()` method
 that applies a matcher as an assertion:
 
-    assertThat(item.text(), equalTo("foo");
+~~~ java
+assertThat(item.text(), equalTo("foo");
+~~~
 
 The first parameter to `assertThat()` is the value that we want to evaluate.
 The second is a matcher object.
@@ -461,7 +479,9 @@ We will leave that as an exercise for the reader.
 Hamcrest also has a version of `assertThat()` that takes an explanation as a parameter.
 Normally all we need to do is describe the subject of the evaluation:
 
-    assertThat("Item text", item.text(), equalTo("foo"));
+~~~ java
+assertThat("Item text", item.text(), equalTo("foo"));
+~~~
 
 When this assertion fails,
 it emits a message similar to the one from JUnit `assertEquals()`:
@@ -497,7 +517,9 @@ I often find it helpful to write assertion statements
 that separate the subject from the feature.
 I have created an assertion method to help me do that:
 
-    assertThat(item, text(), is("foo"));
+~~~ java
+assertThat(item, text(), is("foo"));
+~~~
 
 This assertion method[^hartley]
 takes three parameters.

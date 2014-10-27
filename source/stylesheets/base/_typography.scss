@@ -61,7 +61,7 @@ p, ul, ol, li, blockquote, .highlight {
     &:last-child { margin-bottom: 0; }
 }
 
-ol, ul, blockquote {
+ol, ul {
     margin-left: 2em;
 }
 
@@ -71,7 +71,6 @@ ul { list-style-type: disc; }
 blockquote {
     background-color: $blockquote-background-color;
     border: 1px solid $blockquote-trim-color;
-    margin-right: 2em;
     padding: 1em;
     p {
         font-style: italic;
@@ -86,10 +85,6 @@ blockquote {
             }
         }
     }
-}
-
-pre, code {
-    font-family: $code-font;
 }
 
 #header {
@@ -128,6 +123,7 @@ pre, code {
     h1, h2 {
         font-weight: bold;
         text-transform: capitalize;
+        margin-top: 1rem;
     }
 }
 
@@ -145,8 +141,18 @@ pre, code {
     text-transform: capitalize;
 }
 
+code {
+    font-family: $code-font;
+}
+
+pre {
+    border: 1px solid $blockquote-trim-color;
+    padding: 1rem;
+    overflow: scroll;
+    font-size: $code-size;
+}
+
 .highlight {
-    @include text-size($code-size);
     overflow: scroll;
 }
 
