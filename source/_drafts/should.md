@@ -1,18 +1,15 @@
 I've trained myself to notice
 when the people I'm coaching
 use the word "should."
-_Should_ typically conveys one of three meanings:
+_Should_ typically conveys one of four meanings:
 Expectation,
-moral demand,
-or advice.
+advice,
+command,
+morality.
 
 # Expectation
 
 "I should be done writing the flambot module done by Thursday."
-
-# Moral Demand
-
-"You should work harder to meet your estimates."
 
 # Advice
 
@@ -81,3 +78,11 @@ When I mean "this is the only way,"
 I prefer to make the necessity explicit:
 "The only way to make your code more maintainable is to refactor it."
 This is a very strong claim.
+
+# Command
+
+"You should come to my party tonight."
+
+# Moral Demand
+
+"You should work harder to meet your estimates."

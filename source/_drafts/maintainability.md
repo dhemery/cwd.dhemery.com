@@ -12,7 +12,8 @@ _Name every important idea_:
 Retaining this one.
 Refining by adding _use good names_.
 
-Or maybe: _Expressively name every important idea_.
+Or maybe:
+_Expressively name every important idea_.
 
 _Extract til you drop_
 Extract until there is nothing else to extract.
@@ -28,9 +29,9 @@ _put code where people will look for it_.
 
 So
 
-  - Name every important idea.
+  - Name every important idea well.
   - Eliminate duplication.
-  - Put code where you will look for it.
+  - Put code where people will look for it.
 
 # The importance of expressive names
 
@@ -49,4 +50,3 @@ then extract the common parts
 into something I can parameterize.
 
 **Expressive names guide you when organizing and finding code.**
-
