@@ -122,12 +122,19 @@ Refactor.
 
 # Transformations and Domains
 A transformation is a tiny change in the method that moves at least one element of the method domain into the effective domain.
-The TDD Cycle and Domains
-Write a test. Writing a test (usually) adds an element from the deficit domain into the exemplified domain.
-We sometimes write tests that the code already passes. Sometimes we do this on purpose, to express some fact that the other tests merely imply. Other times we do it by accident, and are surprised when the existing code passes the new tests. So our new member of the exemplified domain came not from the deficit domain, but from the effective domain.
-Transform the code. We write the code that passes the tests by applying a series of transformations. By definition, each transformation moves at least one element from the deficit domain into the effective domain.
-Refactor. By definition, refactoring does not change the effective domain.
+
+## The TDD Cycle and Domains
+
+**Write a test.** Writing a test (usually) adds an element from the deficit domain into the exemplified domain.
+
+We sometimes write tests that the code already passes. Sometimes we do this on purpose, to express some fact that the other tests merely imply. Other times we do it by accident, and are surprised when the existing code passes the new tests. So our new member of the exemplified domain came not from the deficit domain, but from the valid domain.
+
+**Transform the code.** We write the code that passes the tests by applying a series of transformations. By definition, each transformation moves at least one element from the deficit domain into the effective domain.
+
+**Refactor.** By definition, refactoring does not change the valid domain.
+
 Narrowing the Method Domain: Another Transformation?
+
 A non-empty excess domain means that the method accepts values that the function does not. Methods implementations deal with members of the excess domain in a variety of ways:
 -   Calculating an incorrect value.
 -   Explicit exception: Detecting that the value is not in the function domain and throwing an exception.
@@ -135,8 +142,10 @@ A non-empty excess domain means that the method accepts values that the function
 Another way of thinking about the excess domain is that it means the method implements  some function other than the one we are comparing it to. We have implemented a related function over some domain larger than the function's domain.
 To reduce the excess domain, we can either change the definition of the function or reduce the domain of the method.
 We often change the definition the function, and we often do that tacitly. We name a method after a function, then declare the method to have a domain larger than that of the function.
-???
-F -   M: Unimplemented.
-M -   F: Overdeclared.
-M intersect F, m(x)=f(x): Valid.
-M -   Valid: Deficit.
+
+## ???
+
+-   F - M: Unimplemented.
+-   M - F: Overdeclared.
+-   M intersect F, m(x)=f(x): Valid.
+-   M -   Valid: Deficit.
