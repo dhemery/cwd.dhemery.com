@@ -1,0 +1,8 @@
+---
+layout: page
+---
+{% include post/header.html post=page %}
+{% assign body = page.content | markdownify %}
+{% include post/body.html post=page body=body %}
+{% include post/comments.html post=page %}
+{% include scripts/disqus.html post=page %}

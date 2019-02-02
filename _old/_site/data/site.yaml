@@ -1,0 +1,10 @@
+title: Conversations With Dale
+subtitle: about leading software development
+shortname: cwd
+domain: cwd.dhemery.com
+timezone: Pacific Time (US & Canada)
+post_pattern: posts/:year-:month-:title
+copyright: 2003&#8211;2019 Dale H. Emery
+author:
+  name: Dale H. Emery
+  email: dale@dhemery.com

@@ -1,0 +1,11 @@
+permalink: /:year/:month/:title/
+exclude: [Gemfile, Gemfile.lock, Readme.md]
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+force_polling: true
+host: 0.0.0.0

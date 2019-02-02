@@ -1,0 +1,43 @@
+<div role='navigation' aria-label='sidebar'>
+  <div aria-labelledby='site-links'>
+    <p id='site-links' role='heading' class='boxed title'>{{ site.data.domain.title }}</p>
+    <ul class='hanging'>
+      {% for link in site.data.navigation %}<li><a href='{{ link.url }}'>{{ link.title }}</a></li>{% endfor %}
+    </ul>
+  </div>
+  <div aria-labelledby='recent-books'>
+    <p id='recent-books' role='heading' class='boxed title'>Recent Books</p>
+    <ul class='book-links'>
+      {% for slug in site.data.books %}
+        <li>
+          <a href='http://DriscollBrookPress.com/title/{{ slug }}/'>
+            <img src='http://DriscollBrookPress.com/images/{{ slug }}-cover-web.jpg' />
+          </a>
+        </li>
+      {% endfor%}
+    </ul>
+  </div>
+  <div aria-labelledby='recent-posts'>
+    <p id='recent-posts' role='heading' class='boxed title'>Recent Posts</p>
+    <ul class='hanging'>
+      {% for post in site.posts limit:10 %}
+        <li><a href='{{ post.url }}'>{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div aria-labelledby='tags'>
+    <p id='tags' role='heading' class='boxed title'>Tags</p>
+    <ul class='hanging'>
+      {% assign tag_pages = site.pages | where: 'tag_page', true | sort: 'title' %}
+      {% for tag_page in tag_pages %}
+        <li><a href='{{ tag_page.url }}'>{{ tag_page.title }}</a></li>
+      {% endfor%}
+    </ul>
+  </div>
+  <div aria-labelledby='twitter'>
+    <p id='twitter' role='heading' class='boxed title'>Twitter</p>
+    <div class='sidebar-content'>
+      {% include scripts/twitter.html %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+---
+title: Recent Posts
+layout: page
+permalink: /
+---
+{% for post in site.posts limit:10 %}
+  <div role='article'>
+    {% include post/header.html post=post %}
+    {% include post/body.html post=post body=post.content %}
+  </div>
+{% endfor %}
+{% include scripts/disqus.html %}

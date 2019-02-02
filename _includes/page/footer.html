@@ -1,0 +1,11 @@
+<div role='contentinfo' class='centered chrome'>
+  {% capture copyright_date %}
+  {% if page.copyright.date %}{{ page.copyright.date }}
+  {% elsif page.date %}{{ page.date | date: '%Y' }}
+  {% else %}{{ site.data.domain.start_date }}&ndash;{{ site.time | date: '%Y' }}
+  {% endif %}
+  {% endcapture %}
+  <p role='copyright'>
+    &copy; {{ copyright_date }} {{ site.data.domain.author.name }}
+  </p>
+</div>

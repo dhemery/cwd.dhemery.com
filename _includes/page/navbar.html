@@ -1,0 +1,7 @@
+<div role='navigation' aria-label='menu' class='centered chrome'>
+  <ul role='menubar' class='inline'>
+    {% for link in site.data.navigation %}
+      <li role='menuitem'><a href='{{ link.url }}'>{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
