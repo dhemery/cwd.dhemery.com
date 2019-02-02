@@ -1,8 +1,18 @@
 ---
 layout: page
 ---
-{% include post/header.html post=page %}
-{% assign body = page.content | markdownify %}
-{% include post/body.html post=page body=body %}
-{% include post/comments.html post=page %}
-{% include scripts/disqus.html post=page %}
+<div role='header' class='boxed'>
+    <h1 class='title'><a href='{{ page.url }}'>{{ page.title }}</a></h1>
+    <div class='post-details'>
+        {{ page.date | date: '%B %-d, %Y' }}
+        |
+        Tags:
+        <ul class='inline'>
+            {% for tag in page.tags %}<li><a href='/tag/{{ tag | slugify }}/' rel='tag'>{{ tag }}</a></li>{% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class='body'>
+    {{ page.content | markdownify }}
+</div>

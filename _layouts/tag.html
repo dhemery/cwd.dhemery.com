@@ -2,7 +2,6 @@
 layout: page
 ---
 {% include page/header.html item=page %}
-{% include page/share.html item=page %}
 {% assign posts = page.posts | sort: 'date' %}
 <ul class='hanging tagged-posts'>
   {% for post in posts reversed %}

@@ -1,11 +1,7 @@
-$body-width: 60rem;
-$main-width: 40rem;
-$main-width-percent: $main-width / $body-width * 100%;
-$sidebar-width: $body-width - $main-width;
-$sidebar-width-percent: $sidebar-width / $body-width * 100%;
+$body-width: 50rem;
 
 $padding: 2rem;
-$padding-percent: $padding / $main-width * 100%;
+$padding-percent: $padding / $body-width * 100%;
 
 [role='document'] {
   max-width: $body-width;
@@ -14,14 +10,8 @@ $padding-percent: $padding / $main-width * 100%;
 
 [role='main'] {
   float: left;
-  width: $main-width-percent - 2 * $padding-percent;
+  width: 100 - 2 * $padding-percent;
   margin: 0 $padding-percent;
-}
-
-[aria-label='sidebar'] {
-  float: right;
-  width: $sidebar-width-percent - $padding-percent;
-  margin: 0 $padding-percent 0 0;
 }
 
 [role='contentinfo'] { clear: both; }

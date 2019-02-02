@@ -1,5 +1,5 @@
 ---
-title: Standardize practices to aid moving people around?
+title: Standardize Practices to Aid Moving People Around?
 date: 2012/10/10
 tags: [organizing, process]
 

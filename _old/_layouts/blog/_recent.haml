@@ -1,6 +1,0 @@
-%section.post-list
-  - posts[0...10].each do|post|
-    %article.post
-      = partial "layouts/blog/post/header", locals: {title: post.title, date: post.date, url: post.url, tags: post.tags}
-      = partial "layouts/blog/post/body", locals: {body: post.body}
-= partial "layouts/blog/comment-count"

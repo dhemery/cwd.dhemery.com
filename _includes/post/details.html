@@ -1,0 +1,10 @@
+<div class='post-details'>
+    {{ include.post.date | date: '%B %-d, %Y' }}
+    |
+    Tags:
+    <ul class='inline'>
+        {% for tag in include.post.tags %}
+        <li><a href='/tag/{{ tag | slugify }}/' rel='tag'>{{ tag }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

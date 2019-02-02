@@ -1,5 +1,5 @@
 ---
-title: Testing and team effectiveness
+title: Testing and Team Effectiveness
 date: 2012/10/15
 tags: [organizing, testing, observing]
 

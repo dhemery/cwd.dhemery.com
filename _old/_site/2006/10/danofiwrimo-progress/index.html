@@ -1,6 +1,0 @@
-= wrap_layout :page do
-  %article.post-page
-    = partial "layouts/blog/post/header", locals: {title: current_page.data.title, date: current_article.date, url: current_article.url, tags: current_article.tags}
-    = partial "layouts/blog/post/body", locals: {body: yield}
-    = partial "layouts/blog/post/comments", locals: {url: current_article.url}
-= partial "layouts/blog/comment-count"
