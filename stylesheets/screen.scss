@@ -176,8 +176,8 @@ hr { margin: 0; }
 }
 
 .tag-list {
-  padding: 1em;
-  li { list-style: disc; }
+  list-style-type: none;
+  li + li::before { content: ' | '; }
 }
 
 .title { font-variant: small-caps; }
