@@ -110,10 +110,6 @@ hr { margin: 0; }
   [role='heading'] { font-weight: bold; }
 }
 
-[aria-label='sidebar'] div {
-  margin: $inter-paragraph-space 0;
-}
-
 .body {
   p, ul, ol, blockquote {
     margin: $inter-paragraph-space auto;
@@ -166,6 +162,14 @@ hr { margin: 0; }
   }
 }
 
+.title { font-variant: small-caps; }
+
+pre.highlight {
+  padding: 1rem;
+}
+
+// CWD-only starting from here
+
 .post-list-item {
   margin: 1em auto;
 }
@@ -178,10 +182,4 @@ hr { margin: 0; }
 .tag-list {
   list-style-type: none;
   li + li::before { content: ' | '; }
-}
-
-.title { font-variant: small-caps; }
-
-pre.highlight {
-  padding: 1rem;
 }
