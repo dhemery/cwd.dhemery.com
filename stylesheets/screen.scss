@@ -88,6 +88,8 @@ li { margin: 0; }
   h1, h2, a {
     color: $light;
   }
+  h1 { font-size: $banner-title-size; }
+  h2 { font-size: $banner-subtitle-size; }
 }
 
 hr { margin: 0; }
