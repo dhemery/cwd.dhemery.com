@@ -100,17 +100,19 @@ that did exactly what my client and I needed:
 
 ~~~ java
 public class ExceptionWrapperRule implements MethodRule {
-    public Statement apply(final Statement base, FrameworkMethod method, Object target) {
-        return new Statement() {
-            public void evaluate() throws Throwable {
-                try {
-                    base.evaluate();
-                } catch (Throwable cause) {
-                    throw new SessionLinkReporter(cause);
-                }
-            }
-        };
-    }
+  public Statement apply(final Statement base,
+                         FrameworkMethod method,
+                         Object target) {
+    return new Statement() {
+      public void evaluate() throws Throwable {
+        try {
+          base.evaluate();
+        } catch (Throwable cause) {
+          throw new SessionLinkReporter(cause);
+        }
+      }
+    };
+  }
 }
 ~~~
 
@@ -164,7 +166,7 @@ Certainly we could add a line like this to each test:
 
 ~~~ java
 @Test public void myTest() {
-    sendSauceJobName("myTest");
+  sendSauceJobName("myTest");
 }
 ~~~
 
@@ -176,18 +178,22 @@ Rules to the rescue. We wrote this rule:
 
 ~~~ java
 public class TestNameSniffer implements MethodRule {
-    private String testName;
+  private String testName;
 
-    public Statement apply(Statement statement, FrameworkMethod method, Object target) {
-        String className = method.getMethod().getDeclaringClass().getSimpleName();
-        String methodName = method.getName();
-        testName = String.format("%s.%s()", className, methodName);
-        return statement;
-    }
+  public Statement apply(Statement statement,
+                         FrameworkMethod method,
+                         Object target) {
+    String className = method.getMethod()
+                            .getDeclaringClass()
+                            .getSimpleName();
+    String methodName = method.getName();
+    testName = String.format("%s.%s()", className, methodName);
+    return statement;
+  }
     
-    public String testName() {
-        return testName;
-    }
+  public String testName() {
+      return testName;
+  }
 }
 ~~~
 
@@ -213,17 +219,17 @@ you declare a field that is an instance of the JUnitRuleMockery class:
 
 ~~~ java
 public class MyTestClass {
-    @Rule
-    public JUnitRuleMockery context = new JUnitRuleMockery();
+  @Rule
+  public JUnitRuleMockery context = new JUnitRuleMockery();
     
-    @Mock
-    public ACollaboratorClass aCollaborator;
+  @Mock
+  public ACollaboratorClass aCollaborator;
     
-    @Test
-    public void myTest() {
-        ... // Declare expectations for aCollaborator.
-        ... // Invoke the method being tested.
-    }
+  @Test
+  public void myTest() {
+      ... // Declare expectations for aCollaborator.
+      ... // Invoke the method being tested.
+  }
 }
 ~~~
 
@@ -231,17 +237,19 @@ JUnitRuleMockery is a rule whose `apply()` looks like this:
 
 ~~~ java
 @Override
-public Statement apply(final Statement base, FrameworkMethod method, final Object target) {
-    return new Statement() {
-        @Override
-        public void evaluate() throws Throwable {
-            prepare(target);
-            base.evaluate();
-            assertIsSatisfied();
-        }
-        
-        ... // Declarations of prepare() and assertIsSatisfied()
+public Statement apply(final Statement base,
+                       FrameworkMethod method,
+                       final Object target) {
+  return new Statement() {
+    @Override
+    public void evaluate() throws Throwable {
+        prepare(target);
+        base.evaluate();
+        assertIsSatisfied();
     }
+        
+    ... // Declarations of prepare() and assertIsSatisfied()
+  }
 }
 ~~~
 

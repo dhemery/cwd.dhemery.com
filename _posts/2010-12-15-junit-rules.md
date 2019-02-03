@@ -78,13 +78,13 @@ then takes a screenshot if the test fails:
 
 ~~~ java
 public class MyTest {
-    @Rule
-    public MethodRule screenshot = new ScreenshotOnFailureRule();
+  @Rule
+  public MethodRule screenshot = new ScreenshotOnFailureRule();
 
-    @Test
-    public void myTest() { ... }
+  @Test
+  public void myTest() { ... }
 
-    ...
+  ...
 }
 ~~~
 
@@ -145,12 +145,18 @@ as in this example:
 
 ~~~ java
 public class ScreenshotOnFailureRule implements MethodRule {
-    @Override
-    public Statement apply(Statement base, FrameworkMethod method, Object target) {
-        String className = method.getMethod().getDeclaringClass().getSimpleName();
-        String methodName = method.getName();
-        return new ScreenshotOnFailureStatement(base, className, methodName);
-    }
+  @Override
+  public Statement apply(Statement base,
+                         FrameworkMethod method,
+                         Object target) {
+      String className = method.getMethod()
+                            .getDeclaringClass()
+                            .getSimpleName();
+      String methodName = method.getName();
+      return new ScreenshotOnFailureStatement(base,
+                                              className,
+                                              methodName);
+  }
 }
 ~~~
 
@@ -166,21 +172,27 @@ depending on whether the annotation is present on the method:
 
 ~~~ java
 public class ScreenshotOnFailureRule implements MethodRule {
-    @Override
-    public Statement apply(Statement base, FrameworkMethod method, Object target) {
-        if(allowsScreenshot(method)) {
-            String className = method.getMethod().getDeclaringClass().getSimpleName();
-            String methodName = method.getName();
-            return new ScreenshotOnFailureStatement(base, className, methodName);
-        }
-        else {
-            return base;
-        }
+  @Override
+  public Statement apply(Statement base,
+                         FrameworkMethod method,
+                         Object target) {
+    if(allowsScreenshot(method)) {
+      String className = method.getMethod()
+                            .getDeclaringClass()
+                            .getSimpleName();
+      String methodName = method.getName();
+      return new ScreenshotOnFailureStatement(base,
+                                              className,
+                                              methodName);
     }
+    else {
+      return base;
+    }
+  }
 
-    private boolean allowsScreenshot(FrameworkMethod method) {
-        return method.getAnnotation(NoScreenshot.class) == null;
-    }
+  private boolean allowsScreenshot(FrameworkMethod method) {
+      return method.getAnnotation(NoScreenshot.class) == null;
+  }
 }
 ~~~
 
@@ -223,13 +235,13 @@ and annotate the field with `@Rule`:
 
 ~~~ java
 public class MyTest {
-    @Rule
-    public MethodRule screenshot = new ScreenshotOnFailureRule();
+  @Rule
+  public MethodRule screenshot = new ScreenshotOnFailureRule();
 
-    @Test
-    public void myTest() { ... }
+  @Test
+  public void myTest() { ... }
 
-    ...
+  ...
 }
 ~~~
 

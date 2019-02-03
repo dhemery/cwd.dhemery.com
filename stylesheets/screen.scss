@@ -1,9 +1,10 @@
 ---
 ---
 @import 'layout';
+@import 'monokai.css';
 
 $leading: 1.5;
-$inter-paragraph-space: $leading * 1rem;
+$inter-paragraph-space: 1rem;
 
 $text-font: Arial, Helvetica, sans-serif;
 $text-size: 100%;
@@ -116,7 +117,15 @@ hr { margin: 0; }
 .body {
   p, ul, ol, blockquote {
     margin: $inter-paragraph-space auto;
+  }
+  p, ul, ol {
     padding: 0;
+  }
+  ul, ol {
+    padding-left: $inter-paragraph-space;
+  }
+  blockquote {
+    padding: 0 $inter-paragraph-space;
   }
   ol { list-style-type: decimal; }
   ul { list-style-type: disc; }
