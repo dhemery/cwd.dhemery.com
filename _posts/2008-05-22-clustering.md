@@ -49,7 +49,7 @@ I grabbed my pen and an 8"x5" index card
 and drew this cluster
 (rendered here using MindJet's MindManager software):
 
-![Cluster for "Dinner at Gourlay's"](/tbd)
+![Mutual Disapointment Cluster](/images/cluster-mutual-disappointment.jpg)
 
 As I dumped associations onto the card,
 I quickly found a story idea
@@ -72,9 +72,7 @@ The key words seemed to be
 <em>life</em>, <em>death</em>, and <em>game</em>,
 so I put those words in the center of an index card and created this cluster:
 
-![Cluster for "Double or Nothing"](/tbd)
-
-<strong>Cluster for "Double or Nothing"</strong> (click for full size)
+![Life Death Game Cluster](/images/cluster-life-death-game.jpg)
 
 This time the story didn't jump out at me instantly.
 It took a whole five minutes to find an idea that interested me.

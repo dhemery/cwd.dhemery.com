@@ -138,9 +138,22 @@ Here are the primary failures I've observed, and possible solutions.
 	<li>Did you add the <font face="Courier New">org.eclipse.ui/KEY_CONFIGURATION_ID</font> property to your plug-in customization file?  If you omit this property, then won't know that you want it to activate your binding scheme.</li>
 	<li>Did you assign the <font face="Courier New">KEY_CONFIGURATION_ID</font> property the right value?  This must be the unique identifier for your binding scheme.  If value of this property is incorrect, RCP will activate (or try to active) a binding scheme other than the one you intend.</li>
 </ul>
-<strong>The "<em>Multiple Choice"</em> Problem</strong><strong>:  Your app <em>displays a little yellow table</em></strong> (like the picture below) that displays a number of actions that you can choose to execute.  This is a sign that <em>the active binding scheme has two or more bindings for the same keystroke</em>.  I stumbled over this when (in my willingness to try <em>anything</em>) I assigned my key binding to eclipse/RCP's default binding scheme (<font face="Courier New">org.eclipse.ui.defaultAcceleratorConfiguration</font>).  This made all of the cool default bindings available to my app, but it created a conflict between my <font face="Courier New">CTRL-N</font> binding and the "Select a wizard" <font face="Courier New">CTRL-N</font> binding already in the default scheme. When you execute a keystroke for which the active scheme has two bindings, eclipse/RCP requires the user to take the extra step of choosing between the several possible actions:.
 
-<img src="http://lh6.ggpht.com/dhemery/SEo9w_-gACI/AAAAAAAAAZE/8rXyKUeSgpM/s288/RCPKeyBindingConflict.jpg" alt="Example of an eclipse/RCP key binding conflict" width="202" align="baseline" height="111" />
+<strong>The "<em>Multiple Choice"</em> Problem</strong><strong>:
+Your app <em>displays a little yellow table</em></strong>
+(like the picture below)
+that displays a number of actions that you can choose to execute.
+This is a sign that <em>the active binding scheme has two or more bindings for the same keystroke</em>.
+I stumbled over this when (in my willingness to try <em>anything</em>)
+I assigned my key binding to eclipse/RCP's default binding scheme
+(<font face="Courier New">org.eclipse.ui.defaultAcceleratorConfiguration</font>).
+This made all of the cool default bindings available to my app,
+but it created a conflict between my <font face="Courier New">CTRL-N</font> binding
+and the "Select a wizard" <font face="Courier New">CTRL-N</font> binding already in the default scheme.
+When you execute a keystroke for which the active scheme has two bindings,
+eclipse/RCP requires the user to take the extra step of choosing between the several possible actions:
+
+(Note: The image is no longer available.)
 
 <em>Solution</em>.  Assign your key binding to your own binding scheme, and not to the default one.  If you also want your app to inherit all of the other key bindings from the default scheme, follow the instructions in the "Bonus:  Default Bindings and Actions" section above.
 

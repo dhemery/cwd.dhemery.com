@@ -20,4 +20,5 @@ Goldberg offers <strong> five rules for <em>writing practice</em></strong><em><s
 	<li>Go for the jugular.</li>
 </ol>
 As Goldberg says, it's important to adhere to these rules, because:
-<blockquote> [T]he aim is to burn through to first thoughts, to the place where energy is unobstructed by social politeness or the internal censor, to the place where you are writing what your mind actually sees and feels, and not what it <em>thinks</em> it should see or feel.</blockquote>
+
+> [T]he aim is to burn through to first thoughts, to the place where energy is unobstructed by social politeness or the internal censor, to the place where you are writing what your mind actually sees and feels, and not what it <em>thinks</em> it should see or feel.
