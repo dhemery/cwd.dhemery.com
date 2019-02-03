@@ -184,8 +184,8 @@ public class TestNameSniffer implements MethodRule {
                          FrameworkMethod method,
                          Object target) {
     String className = method.getMethod()
-                            .getDeclaringClass()
-                            .getSimpleName();
+                             .getDeclaringClass()
+                             .getSimpleName();
     String methodName = method.getName();
     testName = String.format("%s.%s()", className, methodName);
     return statement;
@@ -258,7 +258,7 @@ it first calls `prepare()`, which initializes each mock collaborator field decla
 
 Initializing fields in the target is an example of a second use for rules: Modifying a test before running it.
 
-#Modifying Test Results
+# Modifying Test Results
 
 The JMock code also demonstrates another use for JUnit rules:
 Modifying test results.

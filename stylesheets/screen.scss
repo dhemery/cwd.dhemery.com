@@ -1,7 +1,7 @@
 ---
 ---
 @import 'layout';
-@import 'monokai.css';
+@import 'zenburn.css';
 
 $leading: 1.5;
 $inter-paragraph-space: 1rem;
@@ -179,4 +179,9 @@ hr { margin: 0; }
   padding: 1em;
   li { list-style: disc; }
 }
+
 .title { font-variant: small-caps; }
+
+pre.highlight {
+  padding: 1rem;
+}

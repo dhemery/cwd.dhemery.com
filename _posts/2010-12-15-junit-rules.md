@@ -150,8 +150,8 @@ public class ScreenshotOnFailureRule implements MethodRule {
                          FrameworkMethod method,
                          Object target) {
       String className = method.getMethod()
-                            .getDeclaringClass()
-                            .getSimpleName();
+                               .getDeclaringClass()
+                               .getSimpleName();
       String methodName = method.getName();
       return new ScreenshotOnFailureStatement(base,
                                               className,
@@ -178,8 +178,8 @@ public class ScreenshotOnFailureRule implements MethodRule {
                          Object target) {
     if(allowsScreenshot(method)) {
       String className = method.getMethod()
-                            .getDeclaringClass()
-                            .getSimpleName();
+                               .getDeclaringClass()
+                               .getSimpleName();
       String methodName = method.getName();
       return new ScreenshotOnFailureStatement(base,
                                               className,
