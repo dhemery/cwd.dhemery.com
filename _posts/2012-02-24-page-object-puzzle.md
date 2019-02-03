@@ -4,9 +4,6 @@ date: 2012/02/24
 tags: [test automation, coding]
 ---
 
-Note: I originally [posted this on Google+](https://plus.google.com/u/0/+DaleEmery/posts/V4wu4kozQj9).
-There are lots of interesting comments there.
-
 Now that I have a few months of experience
 using page objects in my automated tests,
 I have a puzzle.

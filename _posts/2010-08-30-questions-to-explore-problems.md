@@ -5,15 +5,20 @@ tags:
 - coaching
 - leading
 - process
-
 ---
 
-One of the most powerful things you can do to help someone solve a problem is to ask great questions. My new article "<a href="http://dhemery.com/pdf/questions_to_explore_problems.pdf">Questions to Explore Problems</a>" (PDF) gives dozens of questions that I’ve found essential in my work as a coach, including questions to explore:</p>
-<ul>
-<li>The problem in general.</li>
-<li>The desired state, the perceived state, and the difference between the two.</li>
-<li>The way the problem is stated.</li>
-<li>The problem's past, present, and future.</li>
-<li>The way the problem is being solved.</li>
-<li>The way you are exploring the problem.</li>
-</ul>
+One of the most powerful things you can do
+to help someone solve a problem
+is to ask great questions.
+My new article
+["Questions to Explore Problems"](http://dhemery.com/pdf/questions_to_explore_problems.pdf) (PDF)
+gives dozens of questions
+that I’ve found essential in my work as a coach,
+including questions to explore:
+
+- The problem in general.
+- The desired state, the perceived state, and the difference between the two.
+- The way the problem is stated.
+- The problem's past, present, and future.
+- The way the problem is being solved.
+- The way you are exploring the problem.

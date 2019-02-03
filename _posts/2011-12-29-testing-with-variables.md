@@ -2,13 +2,7 @@
 title: Testing with Variables
 date: 2011/12/29
 tags: [testing]
-
 ---
-
-Note:
-I originally
-[posted this on Google+](https://plus.google.com/u/0/+DaleEmery/posts/PdNsMwK8CLS).
-There are some interesting comments there.
 
 [Elisabeth Hendrickson](http://testobsessed.com/)
 and I have created a screencast called "Testing with Variables."

@@ -153,9 +153,12 @@ Here are the primary failures I've observed, and possible solutions.
 If none of my ideas solve the problem for you, well, that's all the ideas I have right now, so you'll have to gather more information either from your program or <a href="http://www.google.com/search?q=RCP+eclipse+key+bindings+problem">from the innertoobs</a>.
 
 To help you explore your program, I'll toss you one last cookie.  Here's a programmatic way to print the active binding scheme and a list of all active key bindings:
-<pre>IWorkbench workbench = PlatformUI.getWorkbench();</pre>
-<pre>IBindingService bindingService = (IBindingService)workbench.getAdapter(IBindingService.class);</pre>
-<pre>System.out.println(bindingService.getActiveScheme());</pre>
-<pre>for(Binding binding : bindingService.getBindings()) {
+~~~ java
+IWorkbench workbench = PlatformUI.getWorkbench();
+IBindingService bindingService =
+  (IBindingService)workbench.getAdapter(IBindingService.class);
+System.out.println(bindingService.getActiveScheme());
+for(Binding binding : bindingService.getBindings()) {
     System.out.println(binding);
-}</pre>
+}
+~~~

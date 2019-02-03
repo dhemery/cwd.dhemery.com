@@ -11,9 +11,11 @@ tags:
 I listen to a lot of audio books.   Most are read by professional readers.   Every now and then a reader stumbles and emphasizes the wrong word.    It's tempting to attribute such errors to the reader, but I've notice that when a professional reader stumbles, there's likely a stumbling block in the writing.
 
 Read out loud this passage from Scott Smith's <em><a href="http://www.amazon.com/gp/redirect.html%3FASIN=1400043875%26tag=dalehemery-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1400043875%253FSubscriptionId=1N9AHEAQ2F6SVD97BE02">The Ruins</a></em>:
-<blockquote>Amy kept whispering the same thing.  "It's time."
 
-Stacy struggled first to grasp the words, then their meaning.</blockquote>
+> Amy kept whispering the same thing.  "It's time."
+> 
+> Stacy struggled first to grasp the words, then their meaning.
+
 Did you emphasize any of the words, even slightly?
 
 In the audio version of the book, Patrick Wilson, the reader, emphasized the word <em>grasp</em>.  "Stacy struggled first to <em>grasp</em> the words, then their meaning."  Clearly this is the wrong emphasis.   Better emphasis would be, "Stacy struggled first to grasp the <em>words</em>, then their <em>meaning</em>."
