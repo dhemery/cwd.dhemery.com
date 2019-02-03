@@ -1,0 +1,33 @@
+---
+---
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom'>
+  <title type='html'>{{ site.data.domain.title }}</title>
+  <link href='{{ site.data.domain.url }}{{ page.url }}' rel='self'/>
+  <link href='{{ site.data.domain.url }}/' rel='alternate'/>
+  <id>{{ site.data.domain.url }}/</id>
+  <updated>{{ site.posts.first.date | date_to_xmlschema }}</updated>
+  <rights type='html'>
+    &amp;copy;
+    {{ site.data.domain.start_date }}&amp;ndash;{{ site.time | date: '%Y' }}
+    {{ site.data.domain.author.name }}
+  </rights>
+  <author>
+    <name>{{ site.data.domain.author.name }}</name>
+    <email>{{ site.data.domain.author.email }}</email>
+  </author>
+  {% for post in site.posts limit: 10 %}
+  <entry>
+    <title type='text'>{{ post.title }}</title>
+    <id>{{ site.data.domain.url }}{{ post.url }}/</id>
+    <link href='{{ post.url }}' rel='alternate'/>
+    {% for tag in post.tags %}
+    <category term='{{ tag }}'/>
+    {% endfor %}
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <content type='xhtml'>
+      <div xmlns="http://www.w3.org/1999/xhtml">{{ post.content }}</div>
+    </content>
+  </entry>
+  {% endfor %}
+</feed>

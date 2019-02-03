@@ -7,12 +7,9 @@ $inter-paragraph-space: $leading * 1rem;
 
 $text-font: Arial, Helvetica, sans-serif;
 $text-size: 100%;
-// banner title size
-// banner subtitle size
-// page title size
 $banner-title-size: 3rem;
 $banner-subtitle-size: 2rem;
-$header-title-size: 2rem;
+$page-title-size: 2rem;
 $heading-1-size: 1.5rem;
 $heading-2-size: 1.17rem;
 $heading-3-size: 1rem;
@@ -100,7 +97,7 @@ hr { margin: 0; }
 
 [role='header'] {
   margin: $inter-paragraph-space 0;
-  h1 { font-size: $header-title-size; }
+  h1 { font-size: $page-title-size; }
 }
 
 [role='menubar'] li + li::before { content: ' | '; }
@@ -158,7 +155,7 @@ hr { margin: 0; }
   }
 }
 
-.post-list {
+.post-list-item {
   margin: 1em auto;
 }
 
@@ -167,8 +164,8 @@ hr { margin: 0; }
   li + li::before { content: ', '; }
 }
 
-.tagged-posts li {
-  margin: $inter-paragraph-space 0;
+.tag-list {
+  padding: 1em;
+  li { list-style: disc; }
 }
-
 .title { font-variant: small-caps; }
