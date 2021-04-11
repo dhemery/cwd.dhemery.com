@@ -1,0 +1,7 @@
+{{ define "main" }}
+<ul class='inline tag-list title'>
+    {{ range .Site.Taxonomies.tags.Alphabetical }}
+    <li><a href='{{ .Page.RelPermalink }}'>{{ .Page.Title }}</a></li>
+    {{ end }}
+</ul>
+{{ end }}
