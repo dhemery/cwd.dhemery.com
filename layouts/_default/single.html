@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main>
+    <article>
+        <header class='boxed centered chrome'>
+            <h1>IN SINGLE.HTML</h1>
+        </header>
+        {{ with .Content }}
+        <section>{{ . }}</section>
+        {{ end }}
+    </article>
+</main>
+{{ end }}

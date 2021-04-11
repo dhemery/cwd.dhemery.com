@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main>
+    <article>
+        <header class='boxed centered chrome'>
+            <h1>IN LIST.HTML</h1>
+        </header>
+        {{ range .Pages }}
+        <section>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </section>
+        {{ end }}
+    </article>
+</main>
+{{ end }}

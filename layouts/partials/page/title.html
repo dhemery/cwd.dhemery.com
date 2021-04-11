@@ -1,0 +1,10 @@
+{{ $title := "NOT COMPUTED"}}
+{{ if .Title }}
+{{ $title = .Title }}
+{{ else if .Type }}
+{{ $title = partial (path.Join .Type "title") . }}
+{{ else }}
+{{ $title = "NO TYPE" }}
+{{ end }}
+
+{{ return $title }}

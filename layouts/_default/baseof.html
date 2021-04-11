@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='{{ .Site.LanguageCode | default "en-us" }}'>
+    <head>
+        <meta charset='utf-8' />
+        <meta viewport='width=device-width' />
+        <meta viewport='initial-scale=1' />
+        <meta viewport='user-scalable=yes' />
+        <title>{{ block "title" . }}{{ partial "page/title" . }}{{ end }}</title>
+        <link href='/favicon.ico' rel='icon' />
+        {{ $options := (dict "targetPath" "css/screen.css") }}
+        {{ $style := resources.Get "scss/screen.scss" | resources.ToCSS $options }}
+        <link rel="stylesheet" href="{{ $style.Permalink }}">
+    </head>
+    <body>
+        <header class='banner centered title'>
+            <h1><a href='/'>{{ .Site.Title }}</a></h1>
+        </header>
+        <nav class='centered chrome'>
+            <a href="/post/">Posts</a>
+            |
+            <a href="/tags?">Tags</a>
+            |
+            <a href="https://dhemery.com">Dale</a>
+            |
+            <a href="https://dhemery.com/articles">Articles</a>
+            |
+            <a href="https://dhemery.com/contact">Connect</a>
+        </nav>
+        {{ block "main" .}}{{ end }}
+        <footer class='centered chrome'>
+            <p role='copyright'>{{ .Site.Copyright }}</p>
+        </footer>
+    </body>
+</html>

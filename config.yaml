@@ -1,4 +1,9 @@
-baseURL: http://example.org/
+baseURL: http://cwd.dhemery.com/
+permalinks:
+    post: /:year/:month/:filename/
 disablePathToLower: true
 languageCode: en-us
-title: My New Hugo Site
+title: Conversations with Dale
+copyright: © 2003–2021 Dale H. Emery
+taxonomies:
+    tag: tags
