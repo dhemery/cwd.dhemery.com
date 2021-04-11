@@ -8,3 +8,4 @@ copyright: © 2003–2021 Dale H. Emery
 disableKinds: ["posts"]
 taxonomies:
     tag: tags
+pygmentsUseClasses: true

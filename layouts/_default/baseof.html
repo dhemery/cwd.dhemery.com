@@ -9,7 +9,8 @@
         <link href='/favicon.ico' rel='icon' />
         {{ $options := (dict "targetPath" "css/screen.css") }}
         {{ $style := resources.Get "scss/screen.scss" | resources.ToCSS $options }}
-        <link rel="stylesheet" href="{{ $style.Permalink }}">
+        <link rel='stylesheet' href='{{ $style.Permalink }}'>
+        <link rel='stylesheet' href='/css/dracula.css'>
     </head>
     <body>
         <header class='banner centered title'>
