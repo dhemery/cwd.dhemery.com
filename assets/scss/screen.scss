@@ -1,5 +1,7 @@
+$body-width: 60rem;
 $leading: 1.5;
-$inter-paragraph-space: 1rem;
+$inter-paragraph-space: $leading * 1rem;
+$gutter-width: 2rem;
 
 $text-font: Arial, Helvetica, sans-serif;
 $text-size: 100%;
@@ -17,6 +19,7 @@ $medium: hsl($site-hue, 20%, 60%);
 $light: hsl($site-hue, 10%, 92%);
 $lightest: hsl($site-hue, 5%, 98.5%);
 
+
 html {
     background-color: $medium;
     -ms-text-size-adjust: 100%;
@@ -25,112 +28,49 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
-p, li, dt, dd {
-    line-height: $leading;
-}
-
-a {
-    text-decoration: none;
-    &:hover { text-decoration: underline; }
-    color: $dark;
-}
-
-blockquote {
-    border: 1px solid $medium;
-    background-color: $lightest;
-    color: $dark;
-    p, em em { font-style: italic; }
-    em, em em em { font-style: normal; }
-}
-
 body {
-    background-color: $lightest;
-    font-family: $text-font;
-    font-size: $text-size;
+  max-width: $body-width;
+  margin: 0 auto;
+  background-color: $lightest;
+  font-family: $text-font;
+  font-size: $text-size;
 }
 
-em, em em em { font-style: italic; }
-em em { font-style: normal; }
+nav { color: $dark; }
 
-h1, h2, h3, h4 {
-    margin: 0;
+main {
+  padding: $gutter-width;
+
+  p, ul, ol, blockquote {
+    margin: $inter-paragraph-space auto;
     padding: 0;
-    color: $dark;
+  }
+  ol { list-style-type: decimal; }
+  ul { list-style-type: disc; }
 }
 
-h1 { font-size: $heading-1-size; }
-h2 { font-size: $heading-2-size; }
-h3 { font-size: $heading-3-size; }
-
-img {
-    border: 0;
-    max-width: 100%;
-    height: auto;
-}
-
-p, ul, ol, blockquote { padding: 0; }
-
-ol, ul { list-style: none; }
-li { margin: 0; }
-
-article + article { margin-top: 4rem; }
+footer { padding: .5rem; }
 
 .banner {
-    background-color: $dark;
-    padding: .5em;
-    h1, h2 {
-        font-weight: normal;
-    }
-    h1, h2, a {
-        color: $light;
-    }
-    h1 { font-size: $banner-title-size; }
-    h2 { font-size: $banner-subtitle-size; }
-}
+  background-color: $dark;
+  padding: 0.5em;
 
-hr { margin: 0; }
-
-footer {
-    margin-top: 1em;
-}
-
-header {
-    margin: $inter-paragraph-space 0;
-    h1 { font-size: $page-title-size; }
-}
-
-nav {
-    color: $dark;
-    [role='heading'] { font-weight: bold; }
-}
-
-body {
-    p, ul, ol, blockquote {
-        margin: $inter-paragraph-space auto;
-    }
-    p, ul, ol {
-        padding: 0;
-    }
-    ul, ol {
-        padding-left: $inter-paragraph-space;
-    }
-    blockquote {
-        padding: 0 $inter-paragraph-space;
-    }
-    ol { list-style-type: decimal; }
-    ul { list-style-type: disc; }
-}
-
-.boxed, .chrome {
-    border-color: $medium;
-    border-width: 1px;
-    background-color: $light;
+  h1, h2 {
+    font-weight: normal;
+    a { color: $light; }
+  }
 }
 
 .boxed {
     border-style: solid;
     background-color: $light;
     padding: .5em 1em;
+}
+
+.boxed, .chrome {
+    border-color: $medium;
+    border-width: 1px;
+    background-color: $light;
 }
 
 .centered { text-align: center; }
@@ -140,11 +80,16 @@ body {
     border-bottom-style: solid;
     font-weight: bold;
     color: $dark;
+    p, ul { margin: .5rem; }
 }
 
 .hanging {
     margin-left: 1em;
     text-indent: -1em;
+}
+
+.highlight pre {
+    padding: 1rem;
 }
 
 .inline {
@@ -160,9 +105,48 @@ body {
 
 .title { font-variant: small-caps; }
 
-.highlight pre {
-    padding: 1rem;
+a {
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+    color: $dark;
 }
+
+blockquote {
+    border: 1px solid $medium;
+    background-color: $lightest;
+    color: $dark;
+    p, em em { font-style: italic; }
+    em, em em em { font-style: normal; }
+}
+
+em, em em em { font-style: italic; }
+em em { font-style: normal; }
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    color: $dark;
+}
+
+h1 { font-size: $banner-title-size; }
+h2 { font-size: $heading-1-size; }
+h3 { font-size: $heading-2-size; }
+
+hr { margin: 0; }
+
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+li { margin: 0; }
+
+ol, ul, menu { list-style: none; }
+
+p, li, dt, dd { line-height: $leading; }
+
+p, ul, ol, blockquote { padding: 0; }
 
 // CWD-only starting from here
 

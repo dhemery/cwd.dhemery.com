@@ -1,15 +1,15 @@
-<div class='post-list'>
+    <div class='post-list'>
     {{ range . }}
     <div class='post-list-item'>
         <h1 class='title'>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
         </h1>
         <div class='post-details'>
-            <!-- date -->
-            <ul class='inline' data-dhe='link tags'>
-                {{ range (.GetTerms "tags") }}
-                <li><a href='{{ .Permalink }}'>{{ .LinkTitle }}</a></li>
-                {{ end }}
+            {{ dateFormat "Jan 2, 2006" .Date }} | Tags:
+            <ul class='inline'>
+                {{ range (.GetTerms "tags") -}}
+                <li><a href='{{ .Permalink }}'>{{ .LinkTitle -}}</a></li>
+                {{- end }}
             </ul>
         </div>
     </div>
