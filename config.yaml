@@ -9,3 +9,7 @@ disableKinds: ["posts"]
 taxonomies:
     tag: tags
 pygmentsUseClasses: true
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
