@@ -1,8 +1,0 @@
----
-title: Posts
-layout: page
-permalink: /
----
-{% include page/header.html %}
-{% assign posts = site.posts | sort: 'date' | reverse %}
-{% include post/list.html posts = posts %}
