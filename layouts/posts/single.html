@@ -1,0 +1,19 @@
+{{ define "dateline" }}
+<div class='post-details'>
+    {{ dateFormat "Jan 2, 2006" .Date }} | Tags:
+    <ul class='inline'>
+        {{ range (.GetTerms "tags") -}}
+        <li><a href='{{ .Permalink }}'>{{ .LinkTitle -}}</a></li>
+        {{- end }}
+    </ul>
+</div>{{ end }}
+
+{{ define "main" }}
+{{ with .Content }}
+<section>{{ . }}</section>
+{{ end }}
+{{ end }}
+
+{{ define "copyright" }}
+<p role='copyright'>© {{ dateFormat "2006" .Date }} Dale H. Emery</p>
+{{ end }}

@@ -1,7 +1,22 @@
-$body-width: 60rem;
+// Layout
+$body-width: 40rem;
+$padding: 2rem;
+$padding-percent: $padding / $body-width * 100%;
+
+body {
+    max-width: $body-width;
+    margin: 0 auto;
+}
+
+main {
+    width: 100 - 2 * $padding-percent;
+    margin: 0 $padding-percent;
+}
+
+// Style
+
 $leading: 1.5;
-$inter-paragraph-space: $leading * 1rem;
-$gutter-width: 2rem;
+$inter-paragraph-space: 1rem;
 
 $text-font: Arial, Helvetica, sans-serif;
 $text-size: 100%;
@@ -29,48 +44,55 @@ html {
 }
 
 body {
-  max-width: $body-width;
-  margin: 0 auto;
-  background-color: $lightest;
-  font-family: $text-font;
-  font-size: $text-size;
+    background-color: $lightest;
+    font-family: $text-font;
+    font-size: $text-size;
 }
 
-nav { color: $dark; }
+nav {
+}
 
 main {
-  padding: $gutter-width;
-
-  p, ul, ol, blockquote {
-    margin: $inter-paragraph-space auto;
-    padding: 0;
-  }
-  ol { list-style-type: decimal; }
-  ul { list-style-type: disc; }
+    p, ul, ol, blockquote {
+        margin: $inter-paragraph-space auto;
+        padding: 0;
+    }
+    ol { list-style-type: decimal; }
+    ul { list-style-type: disc; }
 }
 
-footer { padding: .5rem; }
+header {
+    margin: $inter-paragraph-space 0;
+    h1 { font-size: $page-title-size; }
+}
+
+footer {
+    margin-top: 1em;
+}
 
 .banner {
-  background-color: $dark;
-  padding: 0.5em;
+    background-color: $dark;
+    padding: .5em;
+    margin: 0;
 
-  h1, h2 {
-    font-weight: normal;
-    a { color: $light; }
-  }
-}
+    h1, h2, a {
+        font-weight: normal;
+        color: $light;
+    }
+    h1 { font-size: $banner-title-size; }
+    h2 { font-size: $banner-subtitle-size; }
 
-.boxed {
-    border-style: solid;
-    background-color: $light;
-    padding: .5em 1em;
 }
 
 .boxed, .chrome {
     border-color: $medium;
     border-width: 1px;
     background-color: $light;
+}
+
+.boxed {
+    padding: .5rem 1rem;
+    border-style: solid;
 }
 
 .centered { text-align: center; }
@@ -80,7 +102,6 @@ footer { padding: .5rem; }
     border-bottom-style: solid;
     font-weight: bold;
     color: $dark;
-    p, ul { margin: .5rem; }
 }
 
 .hanging {
@@ -103,7 +124,10 @@ footer { padding: .5rem; }
 
 .piped li + li::before { content: ' | '; }
 
-.title { font-variant: small-caps; }
+.title {
+    font-weight: bold;
+    font-variant: small-caps;
+}
 
 a {
     text-decoration: none;
@@ -128,9 +152,9 @@ h1, h2, h3, h4 {
     color: $dark;
 }
 
-h1 { font-size: $banner-title-size; }
-h2 { font-size: $heading-1-size; }
-h3 { font-size: $heading-2-size; }
+h1 { font-size: $heading-1-size; }
+h2 { font-size: $heading-2-size; }
+h3 { font-size: $heading-3-size; }
 
 hr { margin: 0; }
 
@@ -149,6 +173,9 @@ p, li, dt, dd { line-height: $leading; }
 p, ul, ol, blockquote { padding: 0; }
 
 // CWD-only starting from here
+
+.post-list {
+}
 
 .post-list-item {
     margin: 1em auto;

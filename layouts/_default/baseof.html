@@ -15,7 +15,7 @@
     <body>
         <header class='banner centered title'>
             <h1><a href='/'>{{ .Site.Title }}</a></h1>
-            <h2>About Software Development</h2>
+            <h2>about software development</h2>
         </header>
 
         <nav class='centered chrome'>
@@ -29,14 +29,17 @@
         </nav>
 
         <main>
-            <header class='boxed centered chrome title'>
-                <h1><a href='{{ .Permalink }}'>{{ .Title }}</a></h1>
+            <header class='boxed'>
+                <h1 class='title'><a href='{{ .Permalink }}'>{{ .Title }}</a></h1>
+                {{ block "dateline" .}}{{ end }}
             </header>
             {{ block "main" .}}{{ end }}
         </main>
 
         <footer class='centered chrome'>
+            {{ block "copyright" . }}
             <p role='copyright'>{{ .Site.Copyright }}</p>
+            {{ end }}
         </footer>
     </body>
 </html>
