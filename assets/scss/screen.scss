@@ -49,13 +49,18 @@ body {
     font-size: $text-size;
 }
 
-nav {
-}
-
 main {
     p, ul, ol, blockquote {
         margin: $inter-paragraph-space auto;
+    }
+    p, ul, ol {
         padding: 0;
+    }
+    ul, ol {
+        padding-left: $inter-paragraph-space;
+    }
+    blockquote {
+        padding: 0 $inter-paragraph-space;
     }
     ol { list-style-type: decimal; }
     ul { list-style-type: disc; }
@@ -102,11 +107,6 @@ footer {
     border-bottom-style: solid;
     font-weight: bold;
     color: $dark;
-}
-
-.hanging {
-    margin-left: 1em;
-    text-indent: -1em;
 }
 
 .highlight pre {
@@ -166,7 +166,7 @@ img {
 
 li { margin: 0; }
 
-ol, ul, menu { list-style: none; }
+ol, ul { list-style: none; }
 
 p, li, dt, dd { line-height: $leading; }
 
@@ -183,6 +183,7 @@ p, ul, ol, blockquote { padding: 0; }
 
 .post-details {
     font-size: $detail-text-size;
+    ul { padding-left: 0; }
     li + li::before { content: ', '; }
 }
 
