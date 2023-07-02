@@ -1,0 +1,18 @@
+baseURL = 'https://cwd.dhemery.com'
+languageCode = 'en-us'
+title = 'Conversations with Dale'
+copyright = '© 2003–2023 Dale H. Emery'
+
+pygmentsUseClasses = true
+
+theme = 'Dale'
+
+[taxonomies]
+tag = 'tags'
+
+[markup.goldmark.highlight]
+codeFences = true
+style = 'dracula'
+
+[markup.goldmark.renderer]
+unsafe = true

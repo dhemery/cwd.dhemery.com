@@ -10,7 +10,7 @@ tags:
 title: Problem Statement Smells
 ---
 
-# Problems and Problem Statements
+## Problems and Problem Statements
 
 In _<a href="http://www.amazon.com/exec/obidos/ASIN/0932633161/dalehemery-20">Are Your Lights On?</a>_, Don Gause and Jerry Weinberg offer this useful definition of _problem_:
 
@@ -22,13 +22,13 @@ There’s another important element of any problem:  The person who is perceivin
 
 A problem statement is a model of the problem, a simplification designed to aid in solving the problem. Like any model, a problem statement differs from the thing being modeled. A good model highlights features that are most relevant to the modeler’s purpose and hides details that are less relevant. A good problem statement highlights problem elements that help solve the problem, and hides details that distract.
 
-# Problem Statement Smells
+## Problem Statement Smells
 
 A _problem statement smell_ is any element of a problem statement that makes the problem harder to solve. Some smells attract your attention toward conditions that are inessential to the problem, or that are beyond your influence. Some smells divert your attention away from an essential element of the problem.
 
 Problem statement smells commonly take three forms: additions, deletions, and distortions. Some problem statements combine several smells.
 
-# Additions
+## Additions
 
 Some problem statements introduce claims and ideas that are not present in the problem itself. These additions can confuse problem solvers, lead to wild goose chases, or otherwise distract from the problem.
 
@@ -40,7 +40,7 @@ Some problem statements introduce claims and ideas that are not present in the p
 
 **Missing standard.** _Jeff tests too slowly._ Too slowly for what? What would be fast enough? How do you assess how fast he tests?
 
-# Deletions
+## Deletions
 
 Many problem statements omit important elements of the problem. These omissions can make it harder to envision what a solution would look like.
 
@@ -52,7 +52,7 @@ Many problem statements omit important elements of the problem. These omissions 
 
 **Missing actor.** _Some of the items on the backlog seem to have no owner._ Rephrase to add an actor: I cannot identify the owner for some of the backlog items.
 
-# Distortions
+## Distortions
 
 Many problem statements amplify problem elements, or dampen them, or interpret them in distorted ways. Such distortions, if we take them as truths, limit the kinds of solutions we will consider.
 
@@ -64,7 +64,7 @@ Many problem statements amplify problem elements, or dampen them, or interpret t
 
 **Lullaby language.** _No problem. We should just work weekends until we ship._ Words and phrases such as _should_, _no problem_, and _just_ tend to minimize the complexity of the problem, directing attention away from important details. Question each use of these “lullaby words” to surface the hidden assumptions. See Jerry Weinberg's _<a href="http://www.amazon.com/exec/obidos/ASIN/0932633528/dalehemery-20">More Secrets of Consulting</a>_ for further examples of lullaby language.
 
-# Combinations
+## Combinations
 
 Sometimes a single problem statement will include a combination of additions, deletions, and distortions.
 
@@ -74,7 +74,7 @@ Sometimes a single problem statement will include a combination of additions, de
 
 **Other time or place.** _Jeff didn’t finish testing third-party authorization._ That’s in the past, and you can’t alter that. What problem are you experiencing right now? What need is currently unfulfilled?
 
-# Your Turn
+## Your Turn
 
 **Experiment:** What other problem statement smells can you identify? How might you remedy each?
 

@@ -2,7 +2,6 @@
 date: "2010-03-15T17:16:15Z"
 tags:
 - acceptance testing
-- automation
 - coding
 - design
 - essence

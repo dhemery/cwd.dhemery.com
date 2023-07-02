@@ -2,11 +2,11 @@
 date: "2009-11-23T13:33:59Z"
 tags:
 - acceptance testing
-- automation
 - duplication
 - essence
 - naming
 - robot framework
+- test automation
 - testing
 title: Writing Maintainable Automated Acceptance Tests
 ---

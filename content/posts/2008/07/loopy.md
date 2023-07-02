@@ -3,8 +3,7 @@ date: "2008-07-29T21:55:41Z"
 tags:
 - communicating
 - leading
-title: 'Loopy Conversations: What versus how, means versus ends, requirements versus
-  design choices'
+title: 'Loopy Conversations: What Versus How, Means Versus Ends, Requirements Versus Design Choices'
 ---
 
 **Loopy conversations.**

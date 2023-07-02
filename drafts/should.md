@@ -13,11 +13,11 @@ advice,
 command,
 morality.
 
-# Expectation
+## Expectation
 
 "I should be done writing the flambot module done by Thursday."
 
-# Advice
+## Advice
 
 "You should refactor your code."
 
@@ -54,7 +54,7 @@ to make it clearer that it is advice,
 and that it is in support of a specific goal:
 "Refactoring your code will make it more maintainable."
 
-## Sufficient or Necessary
+### Sufficient or Necessary
 
 Note that my phrasing changes the meaning of the advice in important way.
 Compare:
@@ -85,10 +85,10 @@ I prefer to make the necessity explicit:
 "The only way to make your code more maintainable is to refactor it."
 This is a very strong claim.
 
-# Command
+## Command
 
 "You should come to my party tonight."
 
-# Moral Demand
+## Moral Demand
 
 "You should work harder to meet your estimates."

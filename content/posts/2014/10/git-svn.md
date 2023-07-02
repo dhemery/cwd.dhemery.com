@@ -18,7 +18,7 @@ For additional help, see the
 [Git and Subversion](http://git-scm.com/book/ch8-1.html)
 section of _Pro Git._
 
-# General Safety Rules
+## General Safety Rules
 
 These rules will help keep you out of trouble
 until you learn the subtleties
@@ -31,7 +31,7 @@ of working with git and subversion:
     _ONLY_
     immediately before committing to SVN.**
 
-# Working With The SVN Repository
+## Working With The SVN Repository
 
 You will do most of your work
 in a local git repository,
@@ -47,7 +47,7 @@ only to do three things:
 -   [Commit your feature](#commit-the-feature-to-the-svn-repository)
     to the SVN repository.
 
-##  Create A Git Repository From An SVN Repository
+###  Create A Git Repository From An SVN Repository
 
 To **create** a local git repository
 from a remote SVN repository:
@@ -59,7 +59,7 @@ git svn clone url-to-svn-repo my-git-repo-name
 Note that this can take a _very_ long time
 if the SVN repository has a large history.
 
-# Working With Feature Branches
+## Working With Feature Branches
 
 You will do your work
 in **feature branches**
@@ -71,7 +71,7 @@ for **each feature** that you are working on.
 See the git documentation
 for details about how to work with branches.
 
-## Create A Feature Branch
+### Create A Feature Branch
 
 1.  **Choose the starting point.**
     Decide whether
@@ -108,7 +108,7 @@ for details about how to work with branches.
     git branch my-feature
     ~~~
 
-# Committing Your Feature
+## Committing Your Feature
 
 To commit your feature
 into the SVN repository:
@@ -128,24 +128,24 @@ Each step is described in its own section below.
 The complete sequence looks like this:
 
 ~~~ bash
-# Update master...
+## Update master...
 git checkout master
 git svn rebase
 
-# Update the feature branch
+## Update the feature branch
 git checkout my-feature
 git rebase master
-# may need to resolve conflicts here
+## may need to resolve conflicts here
 
-# Merge the feature into master
+## Merge the feature into master
 git checkout master
 git merge my-feature
 
-# Commit the feature from master
+## Commit the feature from master
 git svn dcommit
 ~~~
 
-## Update The Master Branch
+### Update The Master Branch
 
 To get the latest changes
 from the SVN repository
@@ -163,7 +163,7 @@ from the master branch,
 the initial feature branch
 is up-to-date with the SVN repository.
 
-## Update The Feature Branch
+### Update The Feature Branch
 
 You will be getting the new changes
 from the master branch.
@@ -186,7 +186,7 @@ Keeping my feature branch up to date
 makes the final merge easier
 when I am ready to commit.
 
-## Resolve Conflicts
+### Resolve Conflicts
 
 Whenever you rebase your feature branch
 on top of master,
@@ -216,7 +216,7 @@ git add .
 git rebase --continue
 ~~~
 
-## Merge The Feature Into The Master Branch
+### Merge The Feature Into The Master Branch
 
 Do this **ONLY** immediately before committing.
 
@@ -230,10 +230,10 @@ Once your feature branch is up to date:
 ~~~ bash
 git checkout master
 git merge my-feature
-# OR git merge --squash my-feature
+## OR git merge --squash my-feature
 ~~~
 
-## Commit The Feature To The SVN Repository
+### Commit The Feature To The SVN Repository
 
 You will be committing from the master branch.
 So before you do this,

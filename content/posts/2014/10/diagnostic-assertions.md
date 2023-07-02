@@ -38,7 +38,7 @@ in other programming languages and libraries.
 
 
 
-# Example
+## Example
 
 Let's set up an example that we can use to explore
 the diagnostic value of different kinds of assertions.
@@ -89,7 +89,7 @@ Then JUnit will display the exception, including any diagnostic message containe
 
 
 
-# Assertion Styles
+## Assertion Styles
 
 There are many ways to express our desired assertion in Java,
 especially if we use assertion mechanisms from third-party libraries,
@@ -105,7 +105,7 @@ and what information is lost.
 
 
 
-# The Java _assert_ Statement
+## The Java _assert_ Statement
 
 Our example test
 expresses an assertion using a Java assertion statement:
@@ -161,7 +161,7 @@ as we begin our investigation of the failure.
 
 
 
-# The (Mostly) Uninformative Failure Message
+## The (Mostly) Uninformative Failure Message
 
 Note that the failure message itself tells us only that some assertion failed.
 It gives us no information at all (in the message itself)
@@ -197,7 +197,7 @@ has been lost.
 
 
 
-# The JUnit _assertTrue()_ Method
+## The JUnit _assertTrue()_ Method
 
 Now let's try another style of assertion,
 the `assertTrue()` method from JUnit:
@@ -227,7 +227,7 @@ that you so carefully crafted into your assertion.
 
 
 
-# Improving the Java _assert_ Statement with an Explanation
+## Improving the Java _assert_ Statement with an Explanation
 
 Both JUnit and Java offer a mechanism to compensate for the limitations
 of the bare `assert` and `assertTrue()` assertions:
@@ -273,7 +273,7 @@ you also have to do the extra work of changing the comment.
 
 
 
-# Adding Explanations with JUnit _assertTrue()_
+## Adding Explanations with JUnit _assertTrue()_
 
 JUnit includes a form of `assertTrue()` method that takes an explanation
 as its first parameter:
@@ -297,7 +297,7 @@ If the assertion fails, JUnit displayes this message:
 
 
 
-# Still Missing: The Actual Value
+## Still Missing: The Actual Value
 
 By adding explanatory messages to our assertions,
 we can restore the information that is lost
@@ -334,7 +334,7 @@ even after comparing them.
 
 
 
-# The JUnit _assertEquals()_ Method
+## The JUnit _assertEquals()_ Method
 
 JUnit offers another style of assertion,
 a style that,
@@ -411,7 +411,7 @@ And we're getting three and a half of them.
 
 
 
-# JUnit _assertEquals()_ with Explanation
+## JUnit _assertEquals()_ with Explanation
 
 JUnit offers a form of `assertEquals()` that takes an explanatory message.
 Let's use that to restore a few of the pieces
@@ -437,7 +437,7 @@ Can we do better?
 
 
 
-# The Hamcrest _assertThat()_ Method
+## The Hamcrest _assertThat()_ Method
 
 Every assertion involves a comparison of some kind.
 Steve Freeman and Nat Pryce took the very helpful step
@@ -501,7 +501,7 @@ read far more expressively in the code.
 
 
 
-# The Hartley _assertThat()_ Method
+## The Hartley _assertThat()_ Method
 
 For my own tests,
 I often take a step beyond Hamcrest.
@@ -556,7 +556,7 @@ that includes every important detail of the assertion.
 
 
 
-## Footnotes
+### Footnotes
 
 [^hamcrest]: The word _Hamcrest_ is an anagram of the word _matchers._ You can find Hamcrest matcher libraries for a variety of programming languages at [http://hamcrest.org/](http://hamcrest.org/).
 

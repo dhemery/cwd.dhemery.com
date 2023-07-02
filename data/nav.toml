@@ -1,0 +1,19 @@
+[[link]]
+title = 'Latest'
+url = '/'
+
+[[link]]
+title = 'All'
+url = '/posts/'
+
+[[link]]
+title = 'Tags'
+url = '/tags/'
+
+[[link]]
+title = 'Dale'
+url = 'https://dhemery.com'
+
+[[link]]
+title = 'Articles'
+url = 'https://dhemery.com/articles/'

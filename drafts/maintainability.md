@@ -34,7 +34,7 @@ So
   - Eliminate duplication.
   - Put code where people will look for it.
 
-# The importance of expressive names
+## The importance of expressive names
 
 Naming every important idea
 helps you achieve the other two principles.

@@ -38,7 +38,7 @@ JUnit rules allow us to:
  - Modify a test before running it.
  - Modify test results.
 
-# Adding Information to Test Results
+## Adding Information to Test Results
 
 A few months ago I was working with testers at a client,
 automating web application tests using Selenium RC.
@@ -130,7 +130,7 @@ and stuffs it into its exception message.
 So this is an example of the first major use of rules:
 To modify test results by adding information obtained during the test.
 
-# Accessing Information About a Test Before It Is Run
+## Accessing Information About a Test Before It Is Run
 
 At that same client,
 we learned of a new Sauce On Demand feature that we wanted to use:
@@ -201,7 +201,7 @@ and other code later sends the name to Selenium RC.
 Now Sauce Labs labels each job with the name of the test,
 which is much easier to recognize than hexadecimal strings.
 
-# Modifying a Test Before Running It
+## Modifying a Test Before Running It
 
 In a Twitter conversation about what rules are good for,
 [Nat Pryce said](http://twitter.com/natpryce/status/14970733117579264)
@@ -257,7 +257,7 @@ it first calls `prepare()`, which initializes each mock collaborator field decla
 
 Initializing fields in the target is an example of a second use for rules: Modifying a test before running it.
 
-# Modifying Test Results
+## Modifying Test Results
 
 The JMock code also demonstrates another use for JUnit rules:
 Modifying test results.

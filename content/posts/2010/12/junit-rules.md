@@ -16,7 +16,7 @@ I've used rules for several purposes:
  - Instruct Swing to run a test headless.
  - Insert the Selenium session ID into the exception message of a failed test.
 
-# Overview of Rules
+## Overview of Rules
 
 **Parts.**
 The JUnit rule mechanism includes three main parts:
@@ -53,16 +53,16 @@ with an example.
 (The code snippets are available as
 [a gist on GitHub](https://gist.github.com/741341).
 
-# Writing Statements
+## Writing Statements
 
 A statement executes a test,
 and optionally does other work before and after executing the test.
 You write a new statement by extending the abstract `Statement` class,
 which declares a single method:
 
-~~~ java
+``` java
 public abstract void evaluate() throws Throwable;
-~~~
+```
 
 A typical `evaluate()` method
 acts as a wrapper around another statement.
@@ -75,7 +75,7 @@ Here is an example of a statement
 that invokes the base statement to run the test,
 then takes a screenshot if the test fails:
 
-~~~ java
+``` java
 public class MyTest {
   @Rule
   public MethodRule screenshot = new ScreenshotOnFailureRule();
@@ -85,17 +85,17 @@ public class MyTest {
 
   ...
 }
-~~~
+```
 
-# Writing Rules
+## Writing Rules
 
 A rule chooses which statement JUnit will use to run a test.
 You write a new rule by implementing the `MethodRule` interface,
 which declares a single method:
 
-~~~ java
+``` java
 Statement apply(Statement base, FrameworkMethod method, Object target);
-~~~
+```
 
 The parameters are:
 
@@ -142,7 +142,7 @@ there is no decision to make.
 Simply create the statement and return it,
 as in this example:
 
-~~~ java
+``` java
 public class ScreenshotOnFailureRule implements MethodRule {
   @Override
   public Statement apply(Statement base,
@@ -157,7 +157,7 @@ public class ScreenshotOnFailureRule implements MethodRule {
                                               methodName);
   }
 }
-~~~
+```
 
 
 In situations that are not so simple,
@@ -169,7 +169,7 @@ which you indicate the `@NoScreenshot` annotation.
 Your screenshot rule can choose the appropriate statement
 depending on whether the annotation is present on the method:
 
-~~~ java
+``` java
 public class ScreenshotOnFailureRule implements MethodRule {
   @Override
   public Statement apply(Statement base,
@@ -193,10 +193,10 @@ public class ScreenshotOnFailureRule implements MethodRule {
       return method.getAnnotation(NoScreenshot.class) == null;
   }
 }
-~~~
+```
 
 
-## A note about upcoming changes in the rule API
+### A note about upcoming changes in the rule API
 
 In JUnit 4.9
 --- the next release of JUnit ---
@@ -208,15 +208,16 @@ differs slightly between the two interfaces.
 As noted above,
 the signature in the deprecated `MethodRule` interface was:
 
-~~~ java
+``` java
 Statement apply(Statement base, FrameworkMethod method, Object target);
-~~~
+```
 
 The signature in the new `TestRule` interface is:
 
-~~~ java
+``` java
 Statement apply(Statement base, Description description);
-~~~
+```
+
 Instead of using a `FramewordMethod` object
 to describe the test method,
 the new interface uses a `Description` object,
@@ -225,14 +226,14 @@ The `target` object
 (the instance of the test class)
 is no longer provided.
 
-# Applying Rules
+## Applying Rules
 
 To use a rule in your test class,
 you declare a public member field,
 initialize the field with an instance of your rule class,
 and annotate the field with `@Rule`:
 
-~~~ java
+``` java
 public class MyTest {
   @Rule
   public MethodRule screenshot = new ScreenshotOnFailureRule();
@@ -242,9 +243,9 @@ public class MyTest {
 
   ...
 }
-~~~
+```
 
-# The Sequence of Events In Detail
+## The Sequence of Events In Detail
 
 JUnit now applies the rule to every test method in your test class.
 Here is the sequence of events that occurs for each test

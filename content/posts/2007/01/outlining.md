@@ -3,7 +3,7 @@ date: "2007-01-10T01:12:00Z"
 tags:
 - fiction
 - writing
-title: Outlining and strawberries
+title: Outlining and Strawberries
 ---
 
 

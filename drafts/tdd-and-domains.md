@@ -4,12 +4,12 @@ draft: true
 
 ---
 
-# Test Domains
+## Test Domains
 
 **Exemplified Domain.**
 The *exemplified domain* is the subset of the function domain exemplified in tests. *Exemplified* is a very, very slippery idea. I may or may not have more to say about this later. I will very likely regret bringing it up.
 
-## The TDD Cycle and Domains
+### The TDD Cycle and Domains
 
 **Write a test.** Writing a test (usually) adds an element from the deficit domain into the exemplified domain.
 
@@ -36,13 +36,13 @@ Another way of thinking about the surplus domain is that it means the method imp
 To reduce the surplus domain, we can either change the definition of the function or reduce the domain of the method.
 We often change the definition the function, and we often do that tacitly. We name a method after a function, then declare the method to have a domain larger than that of the function.
 
-## ???
+### ???
 
 - F - M: Unimplemented.
 - M - F: Overdeclared.
 - M intersect F, m(x)=f(x): Valid.
 - M -   Valid: Deficit.
 
-# Transformations and Domains
+## Transformations and Domains
 A transformation is a tiny change that reduces the size of the union of the disagreement domains.
 

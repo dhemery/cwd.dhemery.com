@@ -1,0 +1,6 @@
+{{ define "main" }}
+<main class='content'>
+  {{ partial "page-header" . }}
+  {{ partial "summary-list" (first 10 .Site.RegularPages.ByDate.Reverse) }}
+</main>
+{{ end }}
